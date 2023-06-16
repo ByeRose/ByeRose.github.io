@@ -3,7 +3,7 @@ layout: post
 title: Why we should be using synthetic data in (robust) machine learning [译]
 date: 2023-05-01 20:40:16
 description: 
-tags: 论文 精度 鲁棒 生成
+tags: 论文 精读 鲁棒 生成
 categories: 精读论文
 ---
 
