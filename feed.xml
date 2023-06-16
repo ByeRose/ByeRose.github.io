@@ -1,5 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-16T12:36:36+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">一个博士生接受怎样的训练是完整、全面的科研训练？[转]</title><link href="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/" rel="alternate" type="text/html" title="一个博士生接受怎样的训练是完整、全面的科研训练？[转]" /><published>2023-05-10T16:40:16+00:00</published><updated>2023-05-10T16:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4%E3%80%81%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83%EF%BC%9F%5B%E8%BD%AC%5D</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/"><![CDATA[<h1 id="一个博士生接受怎样的训练是完整全面的科研训练">一个博士生接受怎样的训练是完整、全面的科研训练？</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-16T12:42:07+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">人工智能顶会 Paper | Workshop | Tutorial</title><link href="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&Workshop&Tutorial/" rel="alternate" type="text/html" title="人工智能顶会 Paper | Workshop | Tutorial" /><published>2023-05-11T20:40:16+00:00</published><updated>2023-05-11T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/"><![CDATA[<h1 id="2023">2023</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Conference</th>
+      <th>Submission</th>
+      <th>Notification</th>
+      <th>Accepted papers</th>
+      <th>Workshop</th>
+      <th>Tutorial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ICLR</td>
+      <td>Sep 28, 22</td>
+      <td>Jan 21, 23</td>
+      <td><a href="https://iclr.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
+      <td><a href="https://iclr.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /><a href="https://sites.google.com/view/trustml-unlimited/home">可信机器学习中有限数据和计算的缺陷</a><br /> <a href="https://rtml-iclr2023.github.io/">可信可靠的大规模机器学习</a> <br /> <a href="https://iclr23-bands.github.io/">机器学习后门攻击与防御</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>NeurIPS</td>
+      <td>May 17, 23</td>
+      <td>Sep 21, 23</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ICML</td>
+      <td>Jan 26, 23</td>
+      <td>Apr 24, 23</td>
+      <td> </td>
+      <td><a href="https://icml.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /> <a href="https://www.ml-verification.com/">机器学习形式化验证</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>CVPR</td>
+      <td>Nov 11, 22</td>
+      <td>Feb 27, 23</td>
+      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers">[<em>lsit</em>]</a></td>
+      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/workshop-list">[<em>list</em>]</a><br /> <a href="https://ai4cc.net/">AI内容创作</a> <br /> <a href="https://generative-vision.github.io/workshop-CVPR-23/">计算机视觉生成模型</a> <br /> <a href="https://robustart.github.io/">对抗机器学习：鲁棒的艺术</a> <br /> <a href="https://fadetrcv.github.io/2023/">公平数据高效和可信的计算机视觉</a></td>
+      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr2023red">欺骗的逆向工程：基础与应用</a><br /><a href="https://dl-theory.github.io/">计算机视觉的深度学习理论</a><br /><a href="https://sites.google.com/view/clvision2023">持续学习</a><br /><a href="https://cvpr2023-tutorial-diffusion-models.github.io/">扩散模型：生成式学习大爆炸</a><br /><a href="https://all-things-vits.github.io/atv/">理解和解释视觉注意力</a></td>
+    </tr>
+    <tr>
+      <td>ICCV</td>
+      <td>March 8, 23</td>
+      <td>July 13, 23</td>
+      <td> </td>
+      <td><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-363300-4-31-33.php">[<em>lsit</em>]</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ACL</td>
+      <td>Dec 15, 22</td>
+      <td>May 1, 23</td>
+      <td> </td>
+      <td><a href="https://2023.aclweb.org/program/workshops/">[<em>list</em>]</a><br /><a href="https://trustnlpworkshop.github.io/">可信的自然语言处理</a></td>
+      <td><a href="https://2023.aclweb.org/program/tutorials/">[<em>list</em>]</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="2022">2022</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Conference</th>
+      <th>Submission</th>
+      <th>Notification</th>
+      <th>Accepted papers</th>
+      <th>Workshop</th>
+      <th>Tutorial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ICLR</td>
+      <td>Oct 06, 21</td>
+      <td>Jan 24, 22</td>
+      <td><a href="https://iclr.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td><a href="https://iclr.cc/virtual/2022/events/workshop">[<em>list</em>]</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>NeurIPS</td>
+      <td>May 19, 22</td>
+      <td>Sep 14,22</td>
+      <td><a href="https://nips.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td><a href="https://nips.cc/virtual/2022/events/workshop">[<em>list</em>]</a> <br /> <a href="https://neurips2022.mlsafety.org/">机器学习安全</a> <br /> <a href="https://www.afciworkshop.org/">因果和隐私视角的算法公平性</a> <br /> <a href="https://tsrml2022.github.io/">可信负责的机器学习</a></td>
+      <td><a href="https://nips.cc/virtual/2022/events/tutorial">[<em>list</em>]</a><br /><a href="https://sites.google.com/view/neurips2022-llm-tutorial">终身机器学习</a> <br /> <a href="https://sites.google.com/view/neurips2022-frfm-turotial">基础模型的基本鲁棒性</a> <br /> <a href="https://sites.google.com/mila.quebec/fairnesstutorial/">算法公平性</a></td>
+    </tr>
+    <tr>
+      <td>ICML</td>
+      <td>Jan 27, 22</td>
+      <td>May 14, 22</td>
+      <td><a href="https://icml.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td><a href="https://icml.cc/virtual/2022/events/workshop">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/icml-ml4cyber/home">机器学习用于网络安全</a></td>
+      <td><a href="https://icml.cc/virtual/2022/events/Tutorial">[<em>list</em>]</a></td>
+    </tr>
+    <tr>
+      <td>CVPR</td>
+      <td>Nov 18, 21</td>
+      <td>March 2, 22</td>
+      <td><a href="https://openaccess.thecvf.com/CVPR2022?day=all">[<em>list</em>]</a></td>
+      <td><a href="https://cvpr2022.thecvf.com/workshop-schedule">[<em>list</em>]</a></td>
+      <td><a href="https://cvpr2022.thecvf.com/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr-2022-beyond-cnn">超越卷积神经网络</a> <br /> <a href="https://cvpr2022-tutorial-diffusion-models.github.io/">扩散生成模型：基础与应用</a> <br /> <a href="https://sites.google.com/view/evalmodel">评估教科书之外的模型：分布外和无标签</a><br /> <a href="https://sparse-learning.github.io/">神经网络中的稀疏学习和鲁棒统计分析</a></td>
+    </tr>
+    <tr>
+      <td>ACL</td>
+      <td>Nov 15, 21</td>
+      <td>Feb 23, 22</td>
+      <td><a href="https://www.2022.aclweb.org/papers">[<em>list</em>]</a></td>
+      <td><a href="https://www.2022.aclweb.org/workshops">[<em>list</em>]</a></td>
+      <td><a href="https://www.2022.aclweb.org/tutorials">[<em>list</em>]</a></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="论文追踪" /><category term="顶会" /><category term="论文" /><category term="研讨会" /><summary type="html"><![CDATA[2023]]></summary></entry><entry><title type="html">一个博士生接受怎样的训练是完整、全面的科研训练？[转]</title><link href="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/" rel="alternate" type="text/html" title="一个博士生接受怎样的训练是完整、全面的科研训练？[转]" /><published>2023-05-10T16:40:16+00:00</published><updated>2023-05-10T16:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4%E3%80%81%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83%EF%BC%9F%5B%E8%BD%AC%5D</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/"><![CDATA[<h1 id="一个博士生接受怎样的训练是完整全面的科研训练">一个博士生接受怎样的训练是完整、全面的科研训练？</h1>
 
 <blockquote>
   <p>作者：重剑无锋</p>
@@ -274,374 +394,445 @@
 
 <p>总的来说还是挺开心的日子 我比较工作狂吧 知足了 这已是圆满</p>
 
-<p>Last but not least 我的博士生涯TM的有塞尔达荒野之息啊 呀哈哈！毕业后就等着荒野之息2哈哈！</p>]]></content><author><name></name></author><category term="科研感悟" /><category term="博士" /><category term="科研" /><summary type="html"><![CDATA[一个博士生接受怎样的训练是完整、全面的科研训练？]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://byerose.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://byerose.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://byerose.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://byerose.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://byerose.github.io/blog/2022/redirect</id><content type="html" xml:base="https://byerose.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://byerose.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://byerose.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://byerose.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
-Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
+<p>Last but not least 我的博士生涯TM的有塞尔达荒野之息啊 呀哈哈！毕业后就等着荒野之息2哈哈！</p>]]></content><author><name></name></author><category term="科研感悟" /><category term="博士" /><category term="科研" /><summary type="html"><![CDATA[一个博士生接受怎样的训练是完整、全面的科研训练？]]></summary></entry><entry><title type="html">How to keep track with the literature</title><link href="https://byerose.github.io/blog/2023/How-to-keep-track-with-the-literature/" rel="alternate" type="text/html" title="How to keep track with the literature" /><published>2023-05-09T11:40:16+00:00</published><updated>2023-05-09T11:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/How%20to%20keep%20track%20with%20the%20literature</id><content type="html" xml:base="https://byerose.github.io/blog/2023/How-to-keep-track-with-the-literature/"><![CDATA[<h1 id="how-to-keep-track-with-the-literature">How to keep track with the literature?</h1>
 
-<p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
-Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
-For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p>
+<p><a href="https://twitter.com/jbhuang0604/status/1426039195542360070?s=21">https://twitter.com/jbhuang0604/status/1426039195542360070?s=21</a></p>
 
-<h2 id="mermaid">Mermaid</h2>
+<h2 id="track-the-people-not-the-papers-追踪人而不是论文">Track the people, not the papers 追踪人而不是论文</h2>
 
-<p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
-</code></pre></div></div>
-
-<p>The diagram below was generated by the following code:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
-sequenceDiagram
-    participant John
-    participant Alice
-    Alice-&gt;&gt;John: Hello John, how are you?
-    John--&gt;&gt;Alice: Great!
-{% endmermaid %}
-</code></pre></div></div>
-
-<div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1686919005816" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1686919005816 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1686919005816 .node circle,#mermaid-1686919005816 .node ellipse,#mermaid-1686919005816 .node polygon,#mermaid-1686919005816 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1686919005816 .node.clickable{cursor:pointer}#mermaid-1686919005816 .arrowheadPath{fill:#333}#mermaid-1686919005816 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1686919005816 .edgeLabel{background-color:#e8e8e8}#mermaid-1686919005816 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1686919005816 .cluster text{fill:#333}#mermaid-1686919005816 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1686919005816 .actor{stroke:#ccf;fill:#ececff}#mermaid-1686919005816 text.actor{fill:#000;stroke:none}#mermaid-1686919005816 .actor-line{stroke:grey}#mermaid-1686919005816 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1686919005816 .messageLine0,#mermaid-1686919005816 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1686919005816 #arrowhead{fill:#333}#mermaid-1686919005816 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1686919005816 .messageText{fill:#333;stroke:none}#mermaid-1686919005816 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1686919005816 .labelText,#mermaid-1686919005816 .loopText{fill:#000;stroke:none}#mermaid-1686919005816 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1686919005816 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1686919005816 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1686919005816 .section{stroke:none;opacity:.2}#mermaid-1686919005816 .section0{fill:rgba(102,102,255,.49)}#mermaid-1686919005816 .section2{fill:#fff400}#mermaid-1686919005816 .section1,#mermaid-1686919005816 .section3{fill:#fff;opacity:.2}#mermaid-1686919005816 .sectionTitle0,#mermaid-1686919005816 .sectionTitle1,#mermaid-1686919005816 .sectionTitle2,#mermaid-1686919005816 .sectionTitle3{fill:#333}#mermaid-1686919005816 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1686919005816 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1686919005816 .grid path{stroke-width:0}#mermaid-1686919005816 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1686919005816 .task{stroke-width:2}#mermaid-1686919005816 .taskText{text-anchor:middle;font-size:11px}#mermaid-1686919005816 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1686919005816 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1686919005816 .taskText0,#mermaid-1686919005816 .taskText1,#mermaid-1686919005816 .taskText2,#mermaid-1686919005816 .taskText3{fill:#fff}#mermaid-1686919005816 .task0,#mermaid-1686919005816 .task1,#mermaid-1686919005816 .task2,#mermaid-1686919005816 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1686919005816 .taskTextOutside0,#mermaid-1686919005816 .taskTextOutside1,#mermaid-1686919005816 .taskTextOutside2,#mermaid-1686919005816 .taskTextOutside3{fill:#000}#mermaid-1686919005816 .active0,#mermaid-1686919005816 .active1,#mermaid-1686919005816 .active2,#mermaid-1686919005816 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1686919005816 .activeText0,#mermaid-1686919005816 .activeText1,#mermaid-1686919005816 .activeText2,#mermaid-1686919005816 .activeText3{fill:#000!important}#mermaid-1686919005816 .done0,#mermaid-1686919005816 .done1,#mermaid-1686919005816 .done2,#mermaid-1686919005816 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1686919005816 .doneText0,#mermaid-1686919005816 .doneText1,#mermaid-1686919005816 .doneText2,#mermaid-1686919005816 .doneText3{fill:#000!important}#mermaid-1686919005816 .crit0,#mermaid-1686919005816 .crit1,#mermaid-1686919005816 .crit2,#mermaid-1686919005816 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1686919005816 .activeCrit0,#mermaid-1686919005816 .activeCrit1,#mermaid-1686919005816 .activeCrit2,#mermaid-1686919005816 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1686919005816 .doneCrit0,#mermaid-1686919005816 .doneCrit1,#mermaid-1686919005816 .doneCrit2,#mermaid-1686919005816 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1686919005816 .activeCritText0,#mermaid-1686919005816 .activeCritText1,#mermaid-1686919005816 .activeCritText2,#mermaid-1686919005816 .activeCritText3,#mermaid-1686919005816 .doneCritText0,#mermaid-1686919005816 .doneCritText1,#mermaid-1686919005816 .doneCritText2,#mermaid-1686919005816 .doneCritText3{fill:#000!important}#mermaid-1686919005816 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1686919005816 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1686919005816 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1686919005816 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1686919005816 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1686919005816 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1686919005816 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1686919005816 #compositionEnd,#mermaid-1686919005816 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1686919005816 #aggregationEnd,#mermaid-1686919005816 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1686919005816 #dependencyEnd,#mermaid-1686919005816 #dependencyStart,#mermaid-1686919005816 #extensionEnd,#mermaid-1686919005816 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1686919005816 .branch-label,#mermaid-1686919005816 .commit-id,#mermaid-1686919005816 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1686919005816 {
-    color: rgb(0, 0, 0);
-    font: normal normal 400 normal 16px / normal "Times New Roman";
-  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="https://byerose.github.io/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://byerose.github.io/blog/2021/distill</id><content type="html" xml:base="https://byerose.github.io/blog/2021/distill/"><![CDATA[<h2 id="equations">Equations</h2>
-
-<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine.
-You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
-If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
-
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
-Here is an example:</p>
-
-\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
-
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>
+<p>There are far fewer key people who are driving the field forward than the number of papers. Check out who the authors are when you read papers. Overtime you will recognize the important ones.</p>
 
 <hr />
 
-<h2 id="citations">Citations</h2>
+<p>推动该领域向前发展的关键人物远少于论文的数量。阅读论文时检查作者是谁。时间一长你会认识到重要的人。</p>
 
-<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.</p>
+<h2 id="read-papers-with-good-related-work-阅读具有良好相关工作的论文">Read papers with good related work 阅读具有良好相关工作的论文</h2>
 
-<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.</p>
-
-<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
+<p>A good related work section saves you so much time by providing a clear, organized view for prior work.</p>
 
 <hr />
 
-<h2 id="footnotes">Footnotes</h2>
+<p>一个好的<strong>相关工作</strong>部分可以为之前的工作提供清晰、有条理的视图，从而为您节省大量时间。</p>
 
-<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
+<blockquote>
+  <p>Side note: Please save others’ time by writing a good related work
+旁注：请通过编写良好的相关工作来节省他人的时间</p>
 
-<hr />
+</blockquote>
 
-<h2 id="code-blocks">Code Blocks</h2>
+<h2 id="organize-the-papers-整理论文">Organize the papers 整理论文</h2>
 
-<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
-An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
-For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
-
-<d-code block="" language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
-
-<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> blocks do not look good in the dark mode.
-You can always use the default code-highlight using the <code class="language-plaintext highlighter-rouge">highlight</code> liquid tag:</p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
-<span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">x</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<p>Don’t read papers individually. Think about how are they related (similar in some aspects, but different in others). It often helps to build a table with columns specifying ATTRIBUTES.
+With this table, reading new papers becomes easy (just add more rows).</p>
 
 <hr />
 
-<h2 id="interactive-plots">Interactive Plots</h2>
+<p>不要单独阅读论文。想想它们是如何相关的（在某些方面相似，但在其他方面不同）。它通常有助于构建一个包含指定 ATTRIBUTES 列的表。
+有了这张表，阅读新论文变得很容易（只需添加更多行）。</p>
 
-<p>You can add interative plots using plotly + iframes :framed_picture:</p>
+<h2 id="avoid-reading-the-paper--避免阅读论文">Avoid reading the paper  避免阅读论文</h2>
 
-<div class="l-page">
-  <iframe src="/assets/plotly/demo.html" frameborder="0" scrolling="no" height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
-</div>
-
-<p>The plot must be generated separately and saved into an HTML file.
-To generate the plot that you see above, you can use the following code snippet:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="kn">import</span> <span class="n">plotly.express</span> <span class="k">as</span> <span class="n">px</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
-  <span class="sh">'</span><span class="s">https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv</span><span class="sh">'</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="p">.</span><span class="nf">density_mapbox</span><span class="p">(</span>
-  <span class="n">df</span><span class="p">,</span>
-  <span class="n">lat</span><span class="o">=</span><span class="sh">'</span><span class="s">Latitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">lon</span><span class="o">=</span><span class="sh">'</span><span class="s">Longitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">z</span><span class="o">=</span><span class="sh">'</span><span class="s">Magnitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
-  <span class="n">center</span><span class="o">=</span><span class="nf">dict</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mi">180</span><span class="p">),</span>
-  <span class="n">zoom</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-  <span class="n">mapbox_style</span><span class="o">=</span><span class="sh">"</span><span class="s">stamen-terrain</span><span class="sh">"</span><span class="p">,</span>
-<span class="p">)</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">write_html</span><span class="p">(</span><span class="sh">'</span><span class="s">assets/plotly/demo.html</span><span class="sh">'</span><span class="p">)</span></code></pre></figure>
+<p>Instead of spending time reading the actual paper, find resources that are much easier to digest, e.g., a talk, a youtube video, teaser results, introductory video, or an overview figure.
+Very often understanding the gist of the paper is all you need.</p>
 
 <hr />
 
-<h2 id="layouts">Layouts</h2>
+<p>不要花时间阅读实际的论文，而是寻找更容易消化的资源，例如演讲、youtube 视频、预告结果、介绍性视频或概览图。
+通常，您只需要了解论文的要点即可。</p>
 
-<p>The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
+<h2 id="read-with-a-purpose-有目的的阅读">Read with a purpose 有目的的阅读</h2>
 
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
-
-<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
-
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
-
-<p>All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:</p>
-
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
-</div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-<p>Occasionally you’ll want to use the full browser width.
-For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
-You can also inset the element a little from the edge of the browser by using the inset variant.</p>
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-<p>The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
+<p>Before investing time on reading a paper, think about WHY you are reading it. Are you reading for the experimental setup, the organization, the story, the style, the method, or the visualization?
+You almost never need to read a paper from top to bottom.</p>
 
 <hr />
 
-<h2 id="other-typography">Other Typography?</h2>
+<p>在花时间阅读一篇论文之前，想想你为什么要阅读它。您是在阅读实验设置、组织、故事、风格、方法还是可视化？
+你几乎不需要从头到尾阅读一篇论文。</p>
 
-<p>Emphasis, aka italics, with <em>asterisks</em> (<code class="language-plaintext highlighter-rouge">*asterisks*</code>) or <em>underscores</em> (<code class="language-plaintext highlighter-rouge">_underscores_</code>).</p>
+<h2 id="identify-the-trend-识别趋势">Identify the trend 识别趋势</h2>
 
-<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
-
-<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
-
-<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
-
-<ol>
-  <li>First ordered list item</li>
-  <li>Another item
-⋅⋅* Unordered sub-list.</li>
-  <li>Actual numbers don’t matter, just that it’s a number
-⋅⋅1. Ordered sub-list</li>
-  <li>And another item.</li>
-</ol>
-
-<p>⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).</p>
-
-<p>⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+<p>Use your favorite tools to find what’s hot/trendy, e.g.,</p>
 
 <ul>
-  <li>Unordered list can use asterisks</li>
-  <li>Or minuses</li>
-  <li>Or pluses</li>
+  <li><a href="https://t.co/c9MzPyciO7">http://arxiv-sanity.com</a></li>
+  <li><a href="https://t.co/RkkPp3I3EQ">https://paperswithcode.com</a></li>
+  <li><a href="https://twitter.com/">https://twitter.com</a></li>
+  <li><a href="https://twitter.com/ak92501">https://twitter.com/ak92501</a></li>
 </ul>
 
-<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+<p>使用您最喜欢的工具来查找热门/流行的内容，例如，</p>
 
-<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
-
-<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
-
-<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
-
-<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
-
-<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
-
-<p>URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes
-example.com (but not on Github, for example).</p>
-
-<p>Some text to show that the reference links can follow later.</p>
-
-<p>Here’s our logo (hover to see the title text):</p>
-
-<p>Inline-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
-
-<p>Reference-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
-
-<p>Inline <code class="language-plaintext highlighter-rouge">code</code> has <code class="language-plaintext highlighter-rouge">back-ticks around</code> it.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
-<span class="nf">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Python syntax highlighting</span><span class="sh">"</span>
-<span class="k">print</span> <span class="n">s</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-</code></pre></div></div>
-
-<p>Colons can be used to align columns.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Tables</th>
-      <th style="text-align: center">Are</th>
-      <th style="text-align: right">Cool</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>col 3 is</td>
-      <td style="text-align: center">right-aligned</td>
-      <td style="text-align: right">$1600</td>
-    </tr>
-    <tr>
-      <td>col 2 is</td>
-      <td style="text-align: center">centered</td>
-      <td style="text-align: right">$12</td>
-    </tr>
-    <tr>
-      <td>zebra stripes</td>
-      <td style="text-align: center">are neat</td>
-      <td style="text-align: right">$1</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don’t need to make the
-raw Markdown line up prettily. You can also use inline Markdown.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Markdown</th>
-      <th>Less</th>
-      <th>Pretty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>Still</em></td>
-      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
-      <td><strong>nicely</strong></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
-
-<blockquote>
-  <p>Blockquotes are very handy in email to emulate reply text.
-This line is part of the same quote.</p>
-</blockquote>
-
-<p>Quote break.</p>
-
-<blockquote>
-  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
-</blockquote>
-
-<p>Here’s a line for us to start with.</p>
-
-<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
-
-<p>This line is also a separate paragraph, but…
-This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with github metadata</title><link href="https://byerose.github.io/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T21:01:00+00:00</published><updated>2020-09-28T21:01:00+00:00</updated><id>https://byerose.github.io/blog/2020/github-metadata</id><content type="html" xml:base="https://byerose.github.io/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
-
-<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
 <ul>
-  <li>Propagates the site.github namespace with repository metadata</li>
-  <li>Setting site variables :
-    <ul>
-      <li>site.title</li>
-      <li>site.description</li>
-      <li>site.url</li>
-      <li>site.baseurl</li>
-    </ul>
+  <li><a href="https://t.co/c9MzPyciO7">http://arxiv-sanity.com</a></li>
+  <li><a href="https://t.co/RkkPp3I3EQ">https://paperswithcode.com</a></li>
+  <li><a href="https://twitter.com/">https://twitter.com</a></li>
+  <li><a href="https://twitter.com/ak92501">https://twitter.com/ak92501</a></li>
+</ul>
+
+<h2 id="read-older-papers-before-2000-阅读较早的论文2000-年之前">Read older papers (before 2000) 阅读较早的论文（2000 年之前）</h2>
+
+<p>Many important insights already appeared decades ago. Don’t just read from certain groups. This tends to miss the big picture. Read from broader fields. Read statistics, robotics, physics, applied math, graphics, PL, databases, linguistics, HCI.</p>
+
+<hr />
+
+<p>许多重要的见解早在几十年前就已出现。不要只阅读某些群体的内容。这往往会错过大局。从更广泛的领域阅读。阅读统计学、机器人学、物理学、应用数学、图形学、PL、数据库、语言学、HCI。</p>
+
+<h2 id="some-example-一些例子">Some example 一些例子</h2>
+<ul>
+  <li><a href="https://alastairreid.github.io/a-year-of-papers/">https://alastairreid.github.io/a-year-of-papers/</a></li>
+</ul>]]></content><author><name></name></author><category term="论文追踪" /><category term="论文" /><category term="综述" /><summary type="html"><![CDATA[How to keep track with the literature?]]></summary></entry><entry><title type="html">Why we should be using synthetic data in (robust) machine learning [译]</title><link href="https://byerose.github.io/blog/2023/Why-we-should-be-using-synthetic-data-in-(robust)-machine-learning-%E8%AF%91/" rel="alternate" type="text/html" title="Why we should be using synthetic data in (robust) machine learning [译]" /><published>2023-05-01T20:40:16+00:00</published><updated>2023-05-01T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/Why%20we%20should%20be%20using%20synthetic%20data%20in%20(robust)%20machine%20learning%20%5B%E8%AF%91%5D</id><content type="html" xml:base="https://byerose.github.io/blog/2023/Why-we-should-be-using-synthetic-data-in-(robust)-machine-learning-%E8%AF%91/"><![CDATA[<hr />
+<p>title: Why we should be using synthetic data in (robust) machine learning [译]
+feed: show
+date: 01-05-2023
+—</p>
+
+<h1 id="why-we-should-be-using-synthetic-data-in-robust-machine-learning译">Why we should be using synthetic data in (robust) machine learning?[译]</h1>
+
+<p><a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html">Why use synthetic data in machine learning?</a></p>
+
+<h2 id="why-we-should-be-using-synthetic-data-in-robust-machine-learning"><strong>Why we should be using synthetic data in (robust) machine learning</strong></h2>
+
+<p><strong>为什么我们应该在（鲁棒的）机器学习中使用合成数据</strong></p>
+
+<p>25 April 2022 </p>
+
+<p>If you are excited about generative models, then you would find the latest improvements (e.g., <a href="https://openai.com/dall-e-2/">DALLE-2</a> from OPENAI) nothing less than magical. These models excel at generating novel yet realistic synthetic images [<a href="https://arxiv.org/abs/2112.10741">1</a>, <a href="https://arxiv.org/abs/2105.05233">2</a>, <a href="https://arxiv.org/abs/2202.00273">3</a>]. Evident to this success are thousands of dalle-2 images floating on <a href="https://twitter.com/hashtag/dalle">twitter</a>, all of which are photorealistic synthetic images generated by this new model. Even before dalle-2, we have previous works that successfully solve this task on small scale but challenging datasets like ImageNet [<a href="https://arxiv.org/abs/2105.05233">1</a>, <a href="https://cascaded-diffusion.github.io/">2</a>]. A large part of recent progress is fueled by work on <strong>diffusion models</strong>, a highly successful class of generative models [<a href="https://arxiv.org/pdf/2112.10752.pdf">1</a>, <a href="https://arxiv.org/abs/2112.07804">2</a>, <a href="https://arxiv.org/abs/2112.05744">3</a>, <a href="https://arxiv.org/abs/2106.05931">4</a>].</p>
+
+<hr />
+
+<p>如果您对生成模型感兴趣，那么你会发现最新的研究成果非常神奇（例如来自 OPENAI 的 <a href="https://openai.com/dall-e-2/">DALLE-2</a>）。这些模型擅长生成新颖且逼真的合成图像 [<a href="https://arxiv.org/abs/2112.10741">1</a>, <a href="https://arxiv.org/abs/2105.05233">2</a>, <a href="https://arxiv.org/abs/2202.00273">3</a>]。这一成功的证据是 <a href="https://twitter.com/hashtag/dalle">twitter</a> 上流传着数千张 dalle-2 图像，所有这些图像都是由这个新模型生成的逼真的合成图像。甚至在 dalle-2 之前，我们之前的工作已经成功地在小规模但具有挑战性的数据集上解决了这个任务，如 ImageNet [<a href="https://arxiv.org/abs/2105.05233">1</a>, <a href="https://cascaded-diffusion.github.io/">2</a>]。最近取得的进展很大一部分是由<strong>扩散模型</strong>的工作推动的，扩散模型是一类非常成功的生成模型 [<a href="https://arxiv.org/pdf/2112.10752.pdf">1</a>, <a href="https://arxiv.org/abs/2112.07804">2</a>, <a href="https://arxiv.org/abs/2112.05744">3</a>, <a href="https://arxiv.org/abs/2106.05931">4</a>]。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/rezende_synthetic.png" alt="(a) Stochastic-Backprop ([Rezende et al., 2014](https://arxiv.org/pdf/1401.4082.pdf))" /></p>
+
+<p>(a) Stochastic-Backprop (<a href="https://arxiv.org/pdf/1401.4082.pdf">Rezende et al., 2014</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/goodfellow_synthetic.png" alt="(b) GAN ([Goodfellow et al., 2014](https://arxiv.org/abs/1406.2661))" /></p>
+
+<p>(b) GAN (<a href="https://arxiv.org/abs/1406.2661">Goodfellow et al., 2014</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/ddpm_synthetic.png" alt="(c) Diffusion model ([Ho et al., 2020](https://arxiv.org/pdf/2006.11239.pdf))" /></p>
+
+<p>(c) Diffusion model (<a href="https://arxiv.org/pdf/2006.11239.pdf">Ho et al., 2020</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/dalle2_synthetic.png" alt="(d) DALL·E 2 ([Ramesh et al., 2022](https://cdn.openai.com/papers/dall-e-2.pdf))" /></p>
+
+<p>(d) DALL·E 2 (<a href="https://cdn.openai.com/papers/dall-e-2.pdf">Ramesh et al., 2022</a>)</p>
+
+<ul>
+  <li>
+    <p>Figure-1. <strong>Progress in generative models.</strong> 图1 - 生成模型的进展</p>
+
+    <p>Each subfigure presents synthetic/fake images from different generative models across years. While generative models have consistently made progress over years, recent class of diffusion based generative models finally brings the transformative capabilities of generative models to large, diverse, and challenging datasets (fig. c, d). For example, the dalle-2 (fig. d) generative model, which uses a diffusion model, can generate highly realistic images across a wide range of novel scenarios. In this post, I’ll mainly discuss how we can improve representation learning using generative models, i.e., by distilling knowledge embedded inside the generative model.</p>
+
+    <hr />
+
+    <p>每个子图都展示近些年不同生成模型合成/假图像。虽然生成模型多年来一直在取得进展，但最近一类基于扩散的生成模型最终将生成模型的革命性能力带到了大型、多样化和具有挑战性的数据集上（图c、d）。例如，使用扩散模型的 dalle-2（图 d）生成模型可以在各种新颖场景中生成高度逼真的图像。在这篇文章中，我将主要讨论<strong>如何使用生成模型改进表示学习，即通过提取嵌入在生成模型中的知识</strong>。</p>
   </li>
-  <li>Accessing the metadata - duh.</li>
-  <li>Generating edittable links.</li>
 </ul>
 
-<h2 id="additional-reading">Additional Reading</h2>
+<p>When looking over the super realistic synthetic/fake images from modern generative model, a natural question to ask here is whether we can utilize these images to improve representation learning itself. Broadly speaking, can we transfer the knowledge embedded into generative models to downstream discriminative models. The most common usage of a similar phenomenon is in robotics and reinforcement learning, where an agent first learns to solve the task in a simulation and then transfers the learned knowledge to the real environment [<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/">1</a>, <a href="https://ai.bu.edu/syn2real/">2</a>]. Here the simulator, built by us, acts as an approximate model of real world conditions. However, access to such a simulator is only accessible in certain scenarios (e.g., object manipulation by robots, autonomous driving). In contrast, a generative model learns an approximative model of real world using the training data. Thus for the task of having an approximation of real world model, it shifts the objective from <strong>manual designing to learning it from data</strong>, an approach that can democratize the <strong>synthetic-to-real</strong> learning approach. In other words, generative models can acts as <strong>universal simulators</strong>, due to applicability of their learning based approach to numerous applications. If we can transfer knowledge embedded in these generative models, then this approach has the potential to transform machine learning at broad scale.</p>
+
+<hr />
+
+<p>在查看来自现代生成模型的超逼真合成/假图像时，一个很自然的问题是我们是否可以利用这些图像来改进表示学习本身。从广义上讲，我们能否将生成模型中嵌入的知识转移到下游的判别模型中。类似现象最常见的用法是在机器人技术和强化学习中，代理首先学习在模拟中解决任务，然后将学到的知识转移到真实环境中[<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/">1</a>, <a href="https://ai.bu.edu/syn2real/">2</a>]。其中，我们设计的模拟器充当真实环境的近似模型。然而，只有在某些情况下才能访问这种模拟器（如机器人操纵物体、自动驾驶）。相反，生成模型使用训练数据学习真实环境的近似模型。因此，为了完成近似真实世界的模型的任务，目标将<strong>从手动设计变为到从数据中学习</strong>，这种方法可以使<strong>从生成到真实</strong>的学习方法大众化。换句话说，生成模型可以充当<strong>通用模拟器</strong>，因为此类基于学习的方法适用于众多应用。如果我们能够迁移这些生成模型中嵌入的知识，那么这种方法就有可能大规模地改变机器学习。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/conventional_learning.png" alt="(a) Conventional learning from data" /></p>
+
+<p>(a) Conventional learning from data</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/simulator_learning.png" alt="(b) Simulator assisted learning" /></p>
+
+<p>(b) Simulator assisted learning</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/generative_learning.png" alt="(c) Generative model assisted learning" /></p>
+
+<p>(c) Generative model assisted learning</p>
+
 <ul>
-  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
-  <li>Go through this <a href="https://jekyll.github.io/github-metadata/">README</a> for more details on the topic.</li>
-  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
-<br /></li>
+  <li>
+    <p>Figure-2. <strong>Democratizing simulation-to-real learning with generative models.</strong> 图 2 - 使用生成模型将模拟到真实的学习民主化</p>
+
+    <p>When it comes to learning with generative models, one can draw similarities with well established <em>sim-to-real</em> approach [<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/">1</a>, <a href="https://ai.bu.edu/syn2real/">2</a>]. In <em>sim-to-real</em> approach, we first learn representations in a simulated environment and utilize the acquired knowledge in real world tasks. We design such simulators to best immitate real world environment (e.g., in autonomous driving), but such simulators are only feasible for a handful of domains. In contrast, generative models can learn an approximation of real world environment from raw data. So the democratization comes from shifting the problem from <em>designing</em> an approximation of the real world environment to <em>learning</em> it from data, something deep learning is highly effictive at. The concrete research problem is how to best distill the knowledge from generative models for the downstream representation learning. As we will discuss next, the most straightforward way to incorporate generative models is by training on large amounts of synthetic images from it. Surprisingly this simple approach is highly effective in improving performance in common machine learning tasks.</p>
+
+    <hr />
+
+    <p>在使用生成模型进行学习时，可以得出与完善的模拟到真实方法 [1、2] 的相似之处。在 sim-to-real 方法中，我们首先在模拟环境中学习表示，并在现实世界的任务中利用获得的知识。我们设计此类模拟器以最好地模仿现实世界环境（例如，在自动驾驶中），但此类模拟器仅适用于少数几个领域。相反，生成模型可以从原始数据中学习对真实世界环境的近似。因此，民主化来自于将问题从设计真实世界环境的近似值转移到从数据中学习，而深度学习在这方面非常有效。具体的研究问题是如何最好地从生成模型中提取知识，用于下游表示学习。正如我们接下来将要讨论的那样，合并生成模型的最直接方法是对来自它的大量合成图像进行训练。令人惊讶的是，这种简单的方法在提高常见机器学习任务的性能方面非常有效。</p>
+  </li>
 </ul>
 
-<h2 id="example-metadata">Example MetaData</h2>
+<p><strong>Knowledge distillation from generative models.</strong> The success of generative models assisted learning critically depends on how well we can distill the knowledge from it. We may even need customized methods for different generative models. For example, while GANs can be modified to learn unsupervised representations simultaneously with generative models (<a href="https://www.deepmind.com/open-source/bigbigan">BigBiGAN</a>), such effective techniques haven’t yet been developed for diffusion models. In contrast, a more intuitive and straightforward approach is applicable to all generative models: Extracting synthetic data from generative models and use it for training downstream models. We will consider this approach in most of our experiments in the post. While there is significant room to improve beyond it, it should serve as a common baseline for follow-up methods. I’ll further discuss this direction at the end of the post.</p>
+
+<hr />
+
+<p><strong>从生成模型中提取知识</strong>。生成模型辅助学习的成功关键取决于我们如何从中提取知识。我们甚至可能需要为不同的生成模型定制方法。例如，虽然可以修改 GAN 以与生成模型 (<a href="https://www.deepmind.com/open-source/bigbigan">BigBiGAN</a>) 同时学习无监督表示，但尚未开发出适用于扩散模型的有效技术。相比之下，一种更直观、更直接的方法适用于所有生成模型：从生成模型中提取合成数据，并将其用于训练下游模型。我们将在本文的大部分实验中考虑这种方法。尽管除此之外还有很大的改进空间，但它应该作为后续方法的共同基线。我将在文章末尾进一步讨论这个方向。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/overview.jpeg" alt="https://vsehwag.github.io/blog/2022/4/data/overview.jpeg" /></p>
+
 <ul>
-  <li>Host Name :</li>
-  <li>URL :</li>
-  <li>BaseURL :</li>
-  <li>Archived :</li>
-  <li>Contributors :</li>
-</ul>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[a quick run down on accessing github metadata.]]></summary></entry><entry><title type="html">a post with twitter</title><link href="https://byerose.github.io/blog/2020/twitter/" rel="alternate" type="text/html" title="a post with twitter" /><published>2020-09-28T15:12:00+00:00</published><updated>2020-09-28T15:12:00+00:00</updated><id>https://byerose.github.io/blog/2020/twitter</id><content type="html" xml:base="https://byerose.github.io/blog/2020/twitter/"><![CDATA[<p>A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.</p>
+  <li>
+    <p>Figure-3. <strong>Learning with synthetic data.</strong> 图 3 - 学习合成数据</p>
 
-<h1 id="tweet">Tweet</h1>
-<p>An example of displaying a tweet:</p>
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="sv" dir="ltr">jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API <a href="http://t.co/m4EIQPM9h4">http://t.co/m4EIQPM9h4</a></p>&mdash; RubyGems (@rubygems) <a href="https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw">October 5, 2014</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+    <p>Overview of the pipeline where we distill knowledge from generative models by extracting a large amount of synthetic data from them and then using it in downstream representation learning.</p>
 
-<h1 id="timeline">Timeline</h1>
-<p>An example of pulling from a timeline:</p>
-<div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">Tweets by jekyllrb</a>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+    <p>我们通过从生成模型中提取大量合成数据来从生成模型中提取知识，然后将其用于下游表示学习的流程概述。</p>
+  </li>
+</ul>
 
-<h1 id="additional-details">Additional Details</h1>
-<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin">jekyll-twitter-plugin</a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><category term="formatting" /><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry><entry><title type="html">a post with disqus comments</title><link href="https://byerose.github.io/blog/2015/disqus-comments/" rel="alternate" type="text/html" title="a post with disqus comments" /><published>2015-10-20T15:59:00+00:00</published><updated>2015-10-20T15:59:00+00:00</updated><id>https://byerose.github.io/blog/2015/disqus-comments</id><content type="html" xml:base="https://byerose.github.io/blog/2015/disqus-comments/"><![CDATA[<p>This post shows how to add DISQUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with disqus comments]]></summary></entry><entry><title type="html">a post with math</title><link href="https://byerose.github.io/blog/2015/math/" rel="alternate" type="text/html" title="a post with math" /><published>2015-10-20T15:12:00+00:00</published><updated>2015-10-20T15:12:00+00:00</updated><id>https://byerose.github.io/blog/2015/math</id><content type="html" xml:base="https://byerose.github.io/blog/2015/math/"><![CDATA[<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+<p>Figure 3 summarizes our approach. We start with the images in the training dataset and train a generative model using them. An example would be training a DDPM (<a href="https://arxiv.org/abs/2006.11239">Ho et al.</a>) or StyleGAN (<a href="https://arxiv.org/abs/2006.06676">Karras et al.</a>) model using the 50,000 images in the cifar10 dataset. Once trained, the generative model gives us the ability to sample a very large number of synthetic images from it. In the following experiments, we will commonly sample one to ten million images. Finally, we combine the synthetic data with the real training images and train the classifier on the combined dataset. The hypothesis here is that the additional synthetic data will boost the performance of the classifier.</p>
 
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+<hr />
 
-\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
+<p>图 3 总结了我们的方法。我们从训练数据集中的图像开始，并使用它们训练生成模型。例如，使用 cifar10 数据集中的 50,000 张图像训练 DDPM (<a href="https://arxiv.org/abs/2006.11239">Ho et al.</a>) 或 StyleGAN (<a href="https://arxiv.org/abs/2006.06676">Karras et al.</a>)  模型。一旦经过训练，生成模型使我们能够从中抽取大量合成图像。在接下来的实验中，我们通常会采样1~10m张图像。最后，我们将合成数据与真实训练图像结合起来，并在组合数据集上训练分类器。这里的假设是额外的合成数据将提高分类器的性能。</p>
 
-<p>You can also use <code class="language-plaintext highlighter-rouge">\begin{equation}...\end{equation}</code> instead of <code class="language-plaintext highlighter-rouge">$$</code> for display mode math.
-MathJax will automatically number equations:</p>
+<h2 id="part-1"><strong>Part-1</strong></h2>
 
-<p>\begin{equation}
-\label{eq:cauchy-schwarz}
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\end{equation}</p>
+<h3 id="inflection-point-with-progress-in-generative-models"><strong>Inflection point with progress in generative models</strong></h3>
 
-<p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
+<p><strong>第 1 部分：生成模型进展的拐点</strong></p>
 
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry></feed>
+<p>Using synthetic data from generative models in training is pretty straightforward.</p>
+
+<p><em>But would it help?</em></p>
+
+<hr />
+
+<p>在训练中使用来自生成模型的合成数据非常简单。</p>
+
+<p>但这会有帮助吗？</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/inflection_point.png" alt="https://vsehwag.github.io/blog/2022/4/data/inflection_point.png" /></p>
+
+<ul>
+  <li>
+    <p>Figure-4. <strong>Inflection point with progress in generative models.</strong> 图 4 - 生成模型取得进展的拐点</p>
+
+    <p> Our objective is to measure how much additional boost we get in performance when we train a classifier on the combined set of real and synthetic data. At start of progress in generative models, low-quality synthetic data would likely degrade performance. An inflection point occurs when the synthetic data provides an additional boost in performance. On different datasets, we observe a varying degree of progress beyond the inflection point. E.g., we have progressed much farther on cifar10 than the ImageNet dataset.</p>
+
+    <hr />
+
+    <p>我们的目标是衡量当我们在真实数据和合成数据的组合集上训练分类器时，我们在性能上获得了多少额外提升。在生成模型开始取得进展时，低质量的合成数据可能会降低性能。当合成数据提供额外的性能提升时，就会出现拐点。在不同的数据集上，我们观察到超过拐点的不同程度的进展。例如，与 ImageNet 数据集相比，我们在 cifar10 上取得了更大的进步。</p>
+  </li>
+</ul>
+
+<p><strong>At start.</strong> I would like to argue that it will likely demonstrate an <em>inflection point</em> with progress in the quality of synthetic data. In early stages of progress, the generative model will start to approximate real data distribution, but struggle to generate high fidelity images. E.g., synthetic images from some of the early work on GAN aren’t highly photorealistic (fig. 1a, 1b). The synthetic data distribution learned by these early generative models will have a large gap from real data distribution, therefore simply combining these synthetic images with real data will lead to performance degradation. Note that this gap can be potentially minimized by using additional domain adaptation techniques [<a href="https://arxiv.org/pdf/1409.7495.pdf">1</a>].</p>
+
+<hr />
+
+<p>首先。我想争辩说，随着合成数据质量的进步，它可能会出现一个拐点。在进展的早期阶段，生成模型将开始逼近真实数据分布，但难以生成高保真图像。例如，来自 GAN 的一些早期工作的合成图像并不是非常逼真（图1a、1b）。这些早期生成模型学习到的合成数据分布与真实数据分布会有很大差距，因此简单地将这些合成图像与真实数据结合会导致性能下降。请注意，可以通过使用额外的域适应技术 [<a href="https://arxiv.org/pdf/1409.7495.pdf">1</a>]来潜在地最小化这种差距。</p>
+
+<p><strong>Near inflection point.</strong> With improvement in generative models, one can start generating novel high fidelity images. Progress in generative models is a testament of it, where modern GANs generates stunning realistic image [<a href="https://nvlabs.github.io/stylegan3/">1</a>, <a href="https://arxiv.org/pdf/2107.04589.pdf">2</a>, <a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html">3</a>], requiring dedicated efforts to distinguish them from the real ones, i.e., deepfake detection [<a href="https://arxiv.org/pdf/1812.08685.pdf">1</a>, <a href="https://arxiv.org/pdf/2006.07397.pdf">2</a>]. At this point, synthetic data certainly won’t hurt the performance, since it lies very close to real-data distribution. But would it help, i.e., cross the inflection point?</p>
+
+<hr />
+
+<p>在拐点附近。随着生成模型的改进，人们可以开始生成新颖的高保真图像。生成模型的进步证明了这一点，现代 GAN 生成令人惊叹的逼真图像 [<a href="https://nvlabs.github.io/stylegan3/">1</a>, <a href="https://arxiv.org/pdf/2107.04589.pdf">2</a>, <a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html">3</a>]，需要付出专门的努力才能将它们与真实图像区分开来，即 deepfake 检测[<a href="https://arxiv.org/pdf/1812.08685.pdf">1</a>, <a href="https://arxiv.org/pdf/2006.07397.pdf">2</a>]。在这一点上，合成数据肯定不会影响性能，因为它非常接近真实数据分布。但这会有所帮助，即跨越拐点吗？</p>
+
+<p><strong>Crossing inflection point.</strong> To cross the inflection point, we not only need to generate novel high fidelity synthetic images but also achieve high diversity in these images. Synthetic images from GANs often lack diversity, which makes GANs not the most suitable choice. In contrast, diffusion based generative models achieve both high fidelity and diversity, simultaneously [<a href="https://arxiv.org/abs/2105.05233">1</a>]. Across all datasets that we tested, we find that using synthetic images from diffusion models crosses the inflection point. Though how much it progresses beyond the inflection point varies across dataset. For example, while synthetic data from diffusion models bring a tremendous boost in performance on cifar10 dataset, it barely crosses the inflection point on ImageNet dataset.</p>
+
+<hr />
+
+<p>跨越拐点。为了跨越拐点，我们不仅需要生成新颖的高保真合成图像，还要在这些图像中实现高度多样性。来自 GAN 的合成图像通常缺乏多样性，这使得 GAN 不是最合适的选择。相比之下，基于扩散的生成模型同时实现了高保真度和多样性 [<a href="https://arxiv.org/abs/2105.05233">1</a>]。在我们测试的所有数据集中，我们发现使用来自扩散模型的合成图像跨越了拐点。尽管超过拐点的进展程度因数据集而异。例如，虽然来自扩散模型的合成数据在 cifar10 数据集上带来了巨大的性能提升，但它几乎没有超过 ImageNet 数据集上的拐点。</p>
+
+<h3 id="state-of-the-art-have-we-crossed-the-inflection-point-on-common-vision-datasets"><strong>State-of-the-art: Have we crossed the inflection point on common vision datasets?</strong></h3>
+
+<p><strong>最先进的：我们是否跨越了常见视觉数据集的拐点？</strong></p>
+
+<p>The short answer, <strong>yes</strong>. We consider four datasets, namely cifar10, cifar100, imagenet, and celebA. For each dataset, we aim to train two networks. One trained on only real images and the other trained on combination of both real and synthetic images. If latter network achieves better test accuracy, then we claim that the synthetic data crosses the inflection point, i.e., using synthetic data boost performance.</p>
+
+<hr />
+
+<p>简短的回答，是的。我们考虑四个数据集，即 cifar10、cifar100、imagenet 和 celebA。对于每个数据集，我们的目标是训练两个网络。一个只训练真实图像，另一个训练真实图像和合成图像的组合。如果后一个网络达到更好的测试精度，那么我们声称合成数据越过拐点，即使用合成数据提升性能。</p>
+
+<p>The next question is which experimental setup we should choose to study the impact of synthetic data. The first choice is baseline/benign training, i.e., training a neural network to achieve best generazation, i.e., test accuracy on images. However, we observe that synthetic data is even more helpful across a more challenging tasks, i.e., robust generalization (figure 5-a).</p>
+
+<hr />
+
+<p>下一个问题是我们应该选择哪种实验装置来研究合成数据的影响。首选是基线/良性训练，即训练神经网络以实现最佳生成，即测试图像的准确性。然而，我们观察到合成数据在更具挑战性的任务中更有帮助，即鲁棒的泛化（图 5-a）。</p>
+
+<h3 id="curious-case-of-robustadversarial-training"><strong>Curious case of robust/adversarial training</strong></h3>
+
+<p><strong>鲁棒/对抗训练的奇特案例</strong></p>
+
+<p>The objective in adversarial/robust training is to harden the classifiers against adversarial examples (provide link). Thus the metric of interest is the accuracy on test-set adversarial examples, i.e., robust accuracy. Surprisingly, defending against adversarial examples is extremely hard. State-of-the-art robust accuracy, even on simpler dataset like cifar10, remain quite low. It is well established the generalization with adversarial training requires significantly more data [<a href="https://arxiv.org/abs/1804.11285">1</a>]. This high sample complexity of adversarial training likely leads to the higher benefit of synthetic data.</p>
+
+<hr />
+
+<p>对抗性/鲁棒训练的目标是强化分类器以对抗对抗样本（提供链接）。因此，感兴趣的指标是测试集对抗样本的准确性，即鲁棒准确性。令人惊讶的是，防御对抗样本非常困难。即使在像 cifar10 这样更简单的数据集上，最先进的鲁棒精度仍然很低。众所周知，对抗训练的泛化需要更多的数据 [<a href="https://arxiv.org/abs/1804.11285">1</a>]。对抗训练的这种高样本复杂性可能会导致合成数据的更高收益。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/why_robust_training.png" alt="(a) Success in benign and adversarial training" /></p>
+
+<p>(a) Success in benign and adversarial training</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/improvement_robust_accuracy.jpeg" alt="(b) Success with different datasets in training with adversarial training." /></p>
+
+<p>(b) Success with different datasets in training with adversarial training.</p>
+
+<ul>
+  <li>
+    <p>Figure-5. 图 5</p>
+
+    <p>(a) <strong>Why study robust training.</strong> We first show that the impact of synthetic data is much more significant in robust training then the regular/benign training. This is particularly due to higher sample complexity of robust training.</p>
+
+    <p>(b) We measure the benefit of training on both synthetic and real images, compared to just real images, on common image datasets.</p>
+
+    <hr />
+
+    <p>(a) 为什么要研究鲁棒训练。我们首先表明，合成数据的影响在鲁棒训练中比在常规/良性训练中更为重要。这尤其是由于鲁棒训练的样本复杂性较高。</p>
+
+    <p>(b) 我们衡量了在普通图像数据集上对合成图像和真实图像进行训练与仅对真实图像进行训练相比的好处。</p>
+  </li>
+</ul>
+
+<p>Across all four datasets, we find that training with combined real and synthetic data achieved better performance than training only on real data (Figure 5-b). However, the impact of synthetic data varies with datasets, e.g., in comparison to cifar10, the benefit on ImageNet is quite small. It brings us to the discussion on the inflection point, where the success of generative models varies across datasets. ImageNet is strictly a harder dataset than cifar (more number of classes, diverse images), making it much harder for generative models to generate both high quality and diverse images on this dataset.</p>
+
+<hr />
+
+<p>在所有四个数据集中，我们发现结合真实数据和合成数据进行训练比仅对真实数据进行训练取得了更好的性能（图 5-b）。然而，合成数据的影响因数据集而异，例如，与 cifar10 相比，ImageNet 的优势非常小。它把我们带到了关于拐点的讨论，生成模型的成功因数据集而异。严格来说，ImageNet 是一个比 cifar 更难的数据集（更多的类别，不同的图像），这使得生成模型更难在此数据集上生成高质量和多样化的图像。</p>
+
+<h2 id="part-2"><strong>Part-2</strong></h2>
+
+<h3 id="understanding-why-synthetic-helpsits-not-just-about-photorealism"><strong>Understanding why synthetic helps (its not just about photorealism)</strong></h3>
+
+<p><strong>第 2 部分：理解为什么合成有帮助（它不仅仅是<a href="https://baike.baidu.com/item/%E7%85%A7%E7%9B%B8%E5%86%99%E5%AE%9E%E4%B8%BB%E4%B9%89/624257">照片写实主义</a>）</strong></p>
+
+<p>The unique advantage of generative models is that we can sample unlimited amount of synthetic images from them. E.g., we used 1-10 million synthetic images for most experiments. But as we highlighted in figure 4, augmenting synthetic images help only when progress in generative have cross an inflection point. Before we quantify the progress in this section, here is a challenge.</p>
+
+<hr />
+
+<p>生成模型的独特优势在于我们可以从中采样无限量的合成图像。例如，我们在大多数实验中使用了 1-10m张合成图像。但正如我们在图 4 中强调的那样，增强合成图像只有在生成的进展跨越拐点时才有用。在我们量化本节的进展之前，这里有一个挑战。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_real.png" alt="(a) Real Images (CIFAR-10)" /></p>
+
+<p>(a) Real Images (CIFAR-10)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_ddpm.png" alt="(b) [DDPM](https://arxiv.org/abs/2006.11239) " /></p>
+
+<p>(b) <a href="https://arxiv.org/abs/2006.11239">DDPM</a> </p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_styleC.png" alt="(c) [StyleGAN](https://arxiv.org/abs/2006.06676)" /></p>
+
+<p>(c) <a href="https://arxiv.org/abs/2006.06676">StyleGAN</a></p>
+
+<ul>
+  <li>
+    <p>Figure-6. <strong>Which generative model is better?</strong> 图 6 - 哪种生成模型更好？</p>
+
+    <p>Can we identify which of the generative models (DDPM and StyleGAN) yields better quality synthetic images. We measure quality by the generalization accuracy on real images, i.e., when learning from synthetic data, how much accuracy we achieve on real data.</p>
+
+    <p>我们能确定哪些生成模型（DDPM 和 StyleGAN）产生质量更好的合成图像吗？我们通过真实图像的泛化精度来衡量质量，即，当从合成数据中学习时，我们在真实数据上达到了多少精度。</p>
+  </li>
+</ul>
+
+<p>In the figure above, we display real cifar-10 images for synthetic images from diffusion (DDPM) and stylegan based generative model. Our objective is to combine synthetic images from a generative models with real images in training cifar-10 classifier. Consider the following question: <strong>Which of the two sets of synthetic images (DDPM vs StyleGAN) will be most helpful, when combined with real data?</strong></p>
+
+<hr />
+
+<p>在上图中，我们显示了用于扩散 (DDPM) 和stylegan 的生成模型合成图像的真实 cifar-10 图像。我们的目标是在训练 cifar-10 分类器时将来自生成模型的合成图像与真实图像结合起来。考虑以下问题：当与真实数据结合时，两组合成图像（DDPM 与 StyleGAN）中的哪组最有帮助？</p>
+
+<p>Both set of synthetic images are highly photo-realistic, but benefit of ddpm images significantly outperform styleGAN. For example, training with real+ddpm-synthetic images achieves more than 1-2% higher test accuracy than training on real+stylegan-synthetic images on cifar-10 dataset. The difference is even higher than 5-6% with robust training. The motivation behind this question was to highlight the challenge of identifying the best generative model, even for humans. This is because the quality of synthetic data for purpose of represnetation learning depends on both image quality and diversity. While humans are an excellent judge of former, we need a distribution level comparison to concretely measure both.</p>
+
+<hr />
+
+<p>两组合成图像都非常逼真，但 ddpm 图像的优势明显优于 styleGAN。例如，在 cifar-10 数据集上，使用 real+ddpm-synthetic 图像进行训练比使用 real+stylegan-synthetic 图像进行训练的测试准确率高出 1-2% 以上。通过鲁棒的训练，差异甚至高于 5-6%。这个问题背后的动机是强调识别最佳生成模型的挑战，即使对于人类也是如此。这是因为用于表示学习的合成数据的质量取决于图像质量和多样性。虽然人类是前者的优秀判断者，但我们<strong>需要一个分布水平比较来具体衡量两者</strong>。</p>
+
+<h3 id="how-real-is-fake-data-measuring-distinguishability-of-real-and-synthetic-data-distributions"><strong>How real is fake data? Measuring distinguishability of real and synthetic data distributions.</strong></h3>
+
+<p><strong>假数据有多真实？测量真实和合成数据分布的可区分性。</strong></p>
+
+<p>The common approach to measure the distribution distance between real and synthetic data using Fréchet inception distance (<a href="https://arxiv.org/abs/1706.08500">FID</a>). FID simply measures the proximity of real and synthetic data using Wasserstein-2 distance in the feature space of deep neural network. So naturally the first approach would be to test if FID can explain why synthetic data from some generative models is more beneficial in learning than others. In particular, why diffusion models significantly more effective then contemporary GANs?</p>
+
+<hr />
+
+<p>使用 Fréchet inception distance (<a href="https://arxiv.org/abs/1706.08500">FID</a>) 测量真实数据和合成数据之间分布距离的常用方法。 FID 只是在深度神经网络的特征空间中使用 Wasserstein-2 距离来衡量真实数据和合成数据的接近程度。因此，自然而然地，第一种方法是测试 FID 是否可以解释为什么来自某些生成模型的合成数据比其他模型更有利于学习。特别是，为什么扩散模型比现代 GAN 更有效？</p>
+
+<p>To test this hypothesis, we consider six generative models on cifar10 (five gans and one diffusion model). We first train a robust classifier on 1M synthetic images and measure the performance of real data. As expected, diffusion model synthetic images achieve much higher generalization than other generative models (Table 1). Next, we measure FID of synthetic images from each model. Surprisingly, FID doesn’t align with the generalization performance observed when learning from synthetic data. E.g., FID for styleGAN is better than DDPM model while the latter achieves much better generalization performance on real data.</p>
+
+<hr />
+
+<p>为了检验这一假设，我们考虑了 cifar10 上的六个生成模型（五个GAN模型和一个扩散模型）。我们首先在 1M 合成图像上训练一个鲁棒的分类器并测量真实数据的性能。正如预期的那样，扩散模型合成图像比其他生成模型实现了更高的泛化（表 1）。接下来，我们测量每个模型的合成图像的 FID。令人惊讶的是，FID 与从合成数据中学习时观察到的泛化性能不一致。例如，styleGAN 的 FID 优于 DDPM 模型，而后者在真实数据上实现了更好的泛化性能。</p>
+
+<p>Since the goal is to measure distinguishability of two distributions, we try a classification based approach. If synthetic data is indistinguishable from real, then it would be harder to classify them. We test this hypothesis using a binary classifier. However, it turns out that even few layer neural network swere able successfully classify between real and synthetic data of all generative models with near 100% accuracy.</p>
+
+<hr />
+
+<p>由于目标是衡量两个分布的可区分性，我们尝试了一种基于分类的方法。如果合成数据与真实数据无法区分，那么就更难对它们进行分类。我们使用二元分类器检验这个假设。然而，事实证明，即使是几层神经网络也能够以接近 100% 的准确率成功地对所有生成模型的真实数据和合成数据进行分类。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_motivation.jpeg" alt="(a) *Binary classification beween real and synthetic data.* We expand each sample using $\epsilon$-ball, which makes classification success dependent on proximity of synthetic data to real data. (a) 真实数据和合成数据之间的二元分类。我们使用 $\epsilon$-ball 扩展每个样本，这使得分类成功取决于合成数据与真实数据的接近程度。" /></p>
+
+<p>(a) <em>Binary classification beween real and synthetic data.</em> We expand each sample using $\epsilon$-ball, which makes classification success dependent on proximity of synthetic data to real data. (a) 真实数据和合成数据之间的二元分类。我们使用 $\epsilon$-ball 扩展每个样本，这使得分类成功取决于合成数据与真实数据的接近程度。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_curve.png" alt="(b) *ARC.* It refers to the area under the classification success and epsilon( $\epsilon$) curve. Lower ARC score implier higher proximity of synthetic data to real data. (b) ARC 它指的是分类成功和 epsilon( $\epsilon$ ) 曲线下的面积。较低的 ARC 分数意味着合成数据与真实数据的接近度更高。" /></p>
+
+<p>(b) <em>ARC.</em> It refers to the area under the classification success and epsilon( $\epsilon$) curve. Lower ARC score implier higher proximity of synthetic data to real data. (b) ARC 它指的是分类成功和 epsilon( $\epsilon$ ) 曲线下的面积。较低的 ARC 分数意味着合成数据与真实数据的接近度更高。</p>
+
+<ul>
+  <li>
+    <p>Figure-7. 图 7</p>
+
+    <p>When using binary classification as a tool to measure the proximity between synthetic and real data, we encounter an unexpected issue. Even a few layer network successfully classified all synthetic datasets from real. We introduce  $\epsilon$ -balls, i.e., expand each data point using an  $\epsilon$-radius $l_2$ ball around it and ask the classifier to classify these balls correctly. This simple trick makes the classification success dependent on proximity of real and fake data, since lower proximity will lead to balls intersections, thus making classification inpossible. One can then easily derive a metric (we name is ARC) which measures how hard the classification gets with increase in the size of  $\epsilon$-balls.</p>
+
+    <hr />
+
+    <p>当使用二元分类作为衡量合成数据和真实数据之间接近程度的工具时，我们遇到了一个意想不到的问题。即使是几层网络也成功地将所有合成数据集与真实数据集进行了分类。我们引入 $\epsilon$ -球，即使用   $\epsilon$-半径 $l_2$ 球围绕它扩展每个数据点，并要求分类器对这些球进行正确分类。这个简单的技巧使分类成功取决于真实数据和假数据的接近程度，因为较低的接近程度会导致球相交，从而使分类变得不可能。然后可以很容易地推导出一个度量（我们命名为 ARC），它衡量随着 $\epsilon$ 球大小的增加分类的难度。</p>
+  </li>
+</ul>
+
+<p>So we need to increase the dependence on discriminator success on distance between real and synthetic data distributions. This can be achieve using a very simple tool: $\epsilon$-balls (figure 7.a). We first draw a ball of radius $r$ (it’s a hypersphere if we use $l_2$ norm and a hypercube for $l_\infty$ norm) around each data point. Now the objective is to classify all $\epsilon$-balls correctly. If the synthetic and real dataset are in close proximity, drawing a decision boundary between them will become hard with small values of $\epsilon$ itself. We measure the area under the classification success and $\epsilon$ curve (referred to as ARC). ARC effectively measures the distinguishability of synthetic data from real data.</p>
+
+<hr />
+
+<p>因此，我们需要增加对鉴别器成功对真实数据分布和合成数据分布之间距离的依赖。这可以使用一个非常简单的工具来实现： $\epsilon$-balls（图 7.a）。我们首先在每个数据点周围绘制一个半径为 $r$ 的球（如果我们使用 $l_2$ 范数和 $l_\infty$ 范数则为超立方体）。现在的目标是正确分类所有 $\epsilon$-balls。如果合成数据集和真实数据集非常接近，在它们之间绘制决策边界将变得很难，因为 $\epsilon$ 本身的值很小。我们测量分类成功和 $\epsilon$ 曲线下的面积（简称ARC）。 ARC 有效地衡量了合成数据与真实数据的可区分性。</p>
+
+<p>ARC also explain why synthetic data from diffusion models is significantly more helpful than any other generative model. On cifar10 dataset, ARC values for diffusion mode is 0.06, much lower than the best performing GAN (table-2). It also serves as a better metric than FID in predicting generative model success when their synthetic data is used in augment real data.</p>
+
+<hr />
+
+<p>ARC 还解释了为什么来自扩散模型的合成数据比任何其他生成模型更有用。在 cifar10 数据集上，扩散模式的 ARC 值为 0.06，远低于表现最佳的 GAN（表 2）。当它们的合成数据用于增强真实数据时，它在预测生成模型成功方面也比 FID 更好。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_success.jpeg" alt="https://vsehwag.github.io/blog/2022/4/data/arc_success.jpeg" /></p>
+
+<ul>
+  <li>
+    <p>Table-1. <strong>Measuring distribution distance between real and synthetic data with ARC (Limitation of FID).</strong> 表格1 - 使用 ARC（FID的限制）测量真实数据和合成数据之间的分布距离</p>
+
+    <p>Our objective is to test whether the distance between real and synthetic datasets can predict the benefit of synthetic data in classification. For the ground truth, we adversarially train a wide-resnet model on one million synthetic images for each generative model and measure its robust accuracy on <em>real</em> cifar-10 images. Intuitively, if synthetic data is close to real data then we would expect it to provide higher benefit. But how do we measure proximity of synthetic data to real. FID is the most common metric for this task, where it measures the Wasserstein distance between real and synthetic data distribution in the feature space. However, models with better FID (lower is better) doesn’t necessarily provide a better performance boost in learning. E.g., FID for styleGAN is better than diffusion model (ddpm) but the latter achieves better generalization on real data. As a solution, we propose ARC, which successfully explains the benefit of different generative models. Especially it explains why dffision models are much better than others since ARC score for diffusion models is much better than all other models in our study.。</p>
+
+    <hr />
+
+    <p>我们的目标是测试真实数据集和合成数据集之间的距离是否可以预测合成数据在分类中的优势。根据真实类别，我们针对每个生成模型在一百万张合成图像上对抗性地训练一个 wide-resnet 模型，并测量其在真实 cifar-10 图像上的鲁棒精度。直觉上，如果合成数据接近真实数据，那么我们会期望它提供更高的收益。但是我们如何衡量合成数据与真实数据的接近程度。 FID 是此任务最常用的指标，它测量特征空间中真实数据分布和合成数据分布之间的 Wasserstein 距离。然而，具有更好 FID（越低越好）的模型并不一定能在学习中提供更好的性能提升。例如，styleGAN 的 FID 优于扩散模型 (ddpm)，但后者在真实数据上实现了更好的泛化。作为解决方案，我们提出了 ARC，它成功地解释了不同生成模型的好处。特别是它解释了为什么 dffision 模型比其他模型好得多，因为扩散模型的 ARC 得分比我们研究中的所有其他模型好得多。</p>
+  </li>
+</ul>
+
+<h2 id="discussion"><strong>Discussion</strong></h2>
+
+<p>This post is largely based on my recent work that demonstrates benefit of synthetic data diffusion models in robust learning. The motivation to write it was to discuss the potential and bigger picture of how synthetic data can play a crucial role in deep learning, something that the rigid and scientific writing style of a paper doesn’t permit.</p>
+
+<hr />
+
+<p>这篇文章主要基于我最近的工作，该工作展示了合成数据扩散模型在鲁棒学习中的好处。写这篇文章的动机是讨论合成数据如何在深度学习中发挥关键作用的潜力和更广阔的前景，这是一篇严谨而科学的写作风格所不允许的。</p>
+
+<blockquote>
+  <p><em>Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?</em>, Sehwag et al., <strong>ICLR 2022</strong> (<a href="https://arxiv.org/abs/2104.09425">Link</a>)</p>
+
+</blockquote>
+
+<p>Diffusion models finally enable the use of synthetic data as a mean to improve representation learning, i.e., move past the inflection point. With further progress in diffusion models, we will likely see higher utility from their synthetic data. However, one doesn’t need to limit to using synthetic data as the only approach to integrate diffusion models in representation learning pipeline. In fact, the most important question in the research direction is <strong>how to distill knowledge from diffusion models?</strong> The current setup, i.e., sample synthetic images and use them with real data is a strong baseline, but has two limitations 1) It treats generative models in insolation to discriminative models 2) In addition, the generative models were trained without accounting that the resulted synthetic data will be used for augmentation in classification tasks. A more harmonious integration of both models will likely further improve performance.</p>
+
+<hr />
+
+<p>扩散模型最终能够使用合成数据作为改进表示学习的手段，即越过拐点。随着扩散模型的进一步发展，我们可能会从他们的合成数据中看到更高的效用。然而，不需要限制使用合成数据作为将扩散模型集成到表示学习管道中的唯一方法。事实上，研究方向最重要的问题是如何从扩散模型中提取知识？当前的设置，即对合成图像进行采样并将其与真实数据一起使用是一个强大的基线，但有两个<strong>局限性 1) 它将日照中的生成模型处理为判别模型 2) 此外，生成模型的训练没有考虑结果合成数据将用于增强分类任务。</strong>两种模型的更和谐集成可能会进一步提高性能。</p>
+
+<p><strong>Adaptive sampling.</strong> Are are all synthetic samples equally beneficial? We touch upon this question in our work [<a href="https://arxiv.org/abs/2104.09425">1</a>] and show that one can get extra benefit from synthetic data by adaptively selecting samples. However, there is so much that can be done in this direction. Ideally we want to sample synthetic images from low-density regions on data manifold, i.e., regions on the data manifold that are poorly covered by real data.</p>
+
+<hr />
+
+<p>自适应采样。所有合成样本都同样有益吗？我们在我们的工作 [<a href="https://arxiv.org/abs/2104.09425">1</a>] 中谈到了这个问题，并表明可以<strong>通过自适应选择样本从合成数据中获得额外的好处</strong>。但是，在这个方向上可以做很多事情。理想情况下，我们希望从数据流形上的低密度区域（即数据流形上未被真实数据覆盖的区域）采样合成图像。</p>
+
+<p><strong>Fine-grained metrics to measure synthetic data quality.</strong> To develop adaptive sampling techniques, we essentially need to build measurement tools to indentify quality of different subgroups of synthetic images. In other words, what we can’t measure, we can’t understand. Metrics such as FID, Precision-Recall, and ARC only provides a distribution level measure of data quality. We would need to develop metric, or tune existing ones, to cater to sub-groups of our datsets.</p>
+
+<p><strong>用于衡量合成数据质量的细粒度指标</strong>。为了开发自适应采样技术，我们本质上需要构建测量工具来识别不同合成图像子组的质量。换句话说，我们无法衡量的东西，我们无法理解。 FID、Precision-Recall 和 ARC 等指标仅提供数据质量的分布级别度量。我们需要开发指标或调整现有指标，以迎合数据集的子组。</p>
+
+<blockquote>
+  <p>Translate by @Yongkang Chen 2023/04/29</p>
+
+</blockquote>]]></content><author><name></name></author><category term="精读论文" /><category term="论文" /><category term="精度" /><category term="鲁棒" /><category term="生成" /><summary type="html"><![CDATA[title: Why we should be using synthetic data in (robust) machine learning [译] feed: show date: 01-05-2023 —]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://byerose.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry></feed>

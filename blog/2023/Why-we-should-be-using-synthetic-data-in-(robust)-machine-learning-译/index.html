@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Why we should be using synthetic data in (robust) machine learning [译] | Yongkang  Chen</title>
+    <meta name="author" content="Yongkang  Chen">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A6%9B&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://byerose.github.io/blog/2023/Why-we-should-be-using-synthetic-data-in-(robust)-machine-learning-%E8%AF%91/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Yongkang </span>Chen</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">teaching</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Why we should be using synthetic data in (robust) machine learning [译]</h1>
+    <p class="post-meta">May 1, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/%E8%AE%BA%E6%96%87">
+          <i class="fas fa-hashtag fa-sm"></i> 论文</a>  
+          <a href="/blog/tag/%E7%B2%BE%E5%BA%A6">
+          <i class="fas fa-hashtag fa-sm"></i> 精度</a>  
+          <a href="/blog/tag/%E9%B2%81%E6%A3%92">
+          <i class="fas fa-hashtag fa-sm"></i> 鲁棒</a>  
+          <a href="/blog/tag/%E7%94%9F%E6%88%90">
+          <i class="fas fa-hashtag fa-sm"></i> 生成</a>  
+          
+        ·  
+        <a href="/blog/category/%E7%B2%BE%E8%AF%BB%E8%AE%BA%E6%96%87">
+          <i class="fas fa-tag fa-sm"></i> 精读论文</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <hr>
+<p>title: Why we should be using synthetic data in (robust) machine learning [译]
+feed: show
+date: 01-05-2023
+—</p>
+
+<h1 id="why-we-should-be-using-synthetic-data-in-robust-machine-learning译">Why we should be using synthetic data in (robust) machine learning?[译]</h1>
+
+<p><a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html" rel="external nofollow noopener" target="_blank">Why use synthetic data in machine learning?</a></p>
+
+<h2 id="why-we-should-be-using-synthetic-data-in-robust-machine-learning"><strong>Why we should be using synthetic data in (robust) machine learning</strong></h2>
+
+<p><strong>为什么我们应该在（鲁棒的）机器学习中使用合成数据</strong></p>
+
+<p>25 April 2022 </p>
+
+<p>If you are excited about generative models, then you would find the latest improvements (e.g., <a href="https://openai.com/dall-e-2/" rel="external nofollow noopener" target="_blank">DALLE-2</a> from OPENAI) nothing less than magical. These models excel at generating novel yet realistic synthetic images [<a href="https://arxiv.org/abs/2112.10741" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://arxiv.org/abs/2202.00273" rel="external nofollow noopener" target="_blank">3</a>]. Evident to this success are thousands of dalle-2 images floating on <a href="https://twitter.com/hashtag/dalle" rel="external nofollow noopener" target="_blank">twitter</a>, all of which are photorealistic synthetic images generated by this new model. Even before dalle-2, we have previous works that successfully solve this task on small scale but challenging datasets like ImageNet [<a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://cascaded-diffusion.github.io/" rel="external nofollow noopener" target="_blank">2</a>]. A large part of recent progress is fueled by work on <strong>diffusion models</strong>, a highly successful class of generative models [<a href="https://arxiv.org/pdf/2112.10752.pdf" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/abs/2112.07804" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://arxiv.org/abs/2112.05744" rel="external nofollow noopener" target="_blank">3</a>, <a href="https://arxiv.org/abs/2106.05931" rel="external nofollow noopener" target="_blank">4</a>].</p>
+
+<hr>
+
+<p>如果您对生成模型感兴趣，那么你会发现最新的研究成果非常神奇（例如来自 OPENAI 的 <a href="https://openai.com/dall-e-2/" rel="external nofollow noopener" target="_blank">DALLE-2</a>）。这些模型擅长生成新颖且逼真的合成图像 [<a href="https://arxiv.org/abs/2112.10741" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://arxiv.org/abs/2202.00273" rel="external nofollow noopener" target="_blank">3</a>]。这一成功的证据是 <a href="https://twitter.com/hashtag/dalle" rel="external nofollow noopener" target="_blank">twitter</a> 上流传着数千张 dalle-2 图像，所有这些图像都是由这个新模型生成的逼真的合成图像。甚至在 dalle-2 之前，我们之前的工作已经成功地在小规模但具有挑战性的数据集上解决了这个任务，如 ImageNet [<a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://cascaded-diffusion.github.io/" rel="external nofollow noopener" target="_blank">2</a>]。最近取得的进展很大一部分是由<strong>扩散模型</strong>的工作推动的，扩散模型是一类非常成功的生成模型 [<a href="https://arxiv.org/pdf/2112.10752.pdf" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/abs/2112.07804" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://arxiv.org/abs/2112.05744" rel="external nofollow noopener" target="_blank">3</a>, <a href="https://arxiv.org/abs/2106.05931" rel="external nofollow noopener" target="_blank">4</a>]。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/rezende_synthetic.png" alt="(a) Stochastic-Backprop ([Rezende et al., 2014](https://arxiv.org/pdf/1401.4082.pdf))"></p>
+
+<p>(a) Stochastic-Backprop (<a href="https://arxiv.org/pdf/1401.4082.pdf" rel="external nofollow noopener" target="_blank">Rezende et al., 2014</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/goodfellow_synthetic.png" alt="(b) GAN ([Goodfellow et al., 2014](https://arxiv.org/abs/1406.2661))"></p>
+
+<p>(b) GAN (<a href="https://arxiv.org/abs/1406.2661" rel="external nofollow noopener" target="_blank">Goodfellow et al., 2014</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/ddpm_synthetic.png" alt="(c) Diffusion model ([Ho et al., 2020](https://arxiv.org/pdf/2006.11239.pdf))"></p>
+
+<p>(c) Diffusion model (<a href="https://arxiv.org/pdf/2006.11239.pdf" rel="external nofollow noopener" target="_blank">Ho et al., 2020</a>)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/dalle2_synthetic.png" alt="(d) DALL·E 2 ([Ramesh et al., 2022](https://cdn.openai.com/papers/dall-e-2.pdf))"></p>
+
+<p>(d) DALL·E 2 (<a href="https://cdn.openai.com/papers/dall-e-2.pdf" rel="external nofollow noopener" target="_blank">Ramesh et al., 2022</a>)</p>
+
+<ul>
+  <li>
+    <p>Figure-1. <strong>Progress in generative models.</strong> 图1 - 生成模型的进展</p>
+
+    <p>Each subfigure presents synthetic/fake images from different generative models across years. While generative models have consistently made progress over years, recent class of diffusion based generative models finally brings the transformative capabilities of generative models to large, diverse, and challenging datasets (fig. c, d). For example, the dalle-2 (fig. d) generative model, which uses a diffusion model, can generate highly realistic images across a wide range of novel scenarios. In this post, I’ll mainly discuss how we can improve representation learning using generative models, i.e., by distilling knowledge embedded inside the generative model.</p>
+
+    <hr>
+
+    <p>每个子图都展示近些年不同生成模型合成/假图像。虽然生成模型多年来一直在取得进展，但最近一类基于扩散的生成模型最终将生成模型的革命性能力带到了大型、多样化和具有挑战性的数据集上（图c、d）。例如，使用扩散模型的 dalle-2（图 d）生成模型可以在各种新颖场景中生成高度逼真的图像。在这篇文章中，我将主要讨论<strong>如何使用生成模型改进表示学习，即通过提取嵌入在生成模型中的知识</strong>。</p>
+  </li>
+</ul>
+
+<p>When looking over the super realistic synthetic/fake images from modern generative model, a natural question to ask here is whether we can utilize these images to improve representation learning itself. Broadly speaking, can we transfer the knowledge embedded into generative models to downstream discriminative models. The most common usage of a similar phenomenon is in robotics and reinforcement learning, where an agent first learns to solve the task in a simulation and then transfers the learned knowledge to the real environment [<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://ai.bu.edu/syn2real/" rel="external nofollow noopener" target="_blank">2</a>]. Here the simulator, built by us, acts as an approximate model of real world conditions. However, access to such a simulator is only accessible in certain scenarios (e.g., object manipulation by robots, autonomous driving). In contrast, a generative model learns an approximative model of real world using the training data. Thus for the task of having an approximation of real world model, it shifts the objective from <strong>manual designing to learning it from data</strong>, an approach that can democratize the <strong>synthetic-to-real</strong> learning approach. In other words, generative models can acts as <strong>universal simulators</strong>, due to applicability of their learning based approach to numerous applications. If we can transfer knowledge embedded in these generative models, then this approach has the potential to transform machine learning at broad scale.</p>
+
+<hr>
+
+<p>在查看来自现代生成模型的超逼真合成/假图像时，一个很自然的问题是我们是否可以利用这些图像来改进表示学习本身。从广义上讲，我们能否将生成模型中嵌入的知识转移到下游的判别模型中。类似现象最常见的用法是在机器人技术和强化学习中，代理首先学习在模拟中解决任务，然后将学到的知识转移到真实环境中[<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://ai.bu.edu/syn2real/" rel="external nofollow noopener" target="_blank">2</a>]。其中，我们设计的模拟器充当真实环境的近似模型。然而，只有在某些情况下才能访问这种模拟器（如机器人操纵物体、自动驾驶）。相反，生成模型使用训练数据学习真实环境的近似模型。因此，为了完成近似真实世界的模型的任务，目标将<strong>从手动设计变为到从数据中学习</strong>，这种方法可以使<strong>从生成到真实</strong>的学习方法大众化。换句话说，生成模型可以充当<strong>通用模拟器</strong>，因为此类基于学习的方法适用于众多应用。如果我们能够迁移这些生成模型中嵌入的知识，那么这种方法就有可能大规模地改变机器学习。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/conventional_learning.png" alt="(a) Conventional learning from data"></p>
+
+<p>(a) Conventional learning from data</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/simulator_learning.png" alt="(b) Simulator assisted learning"></p>
+
+<p>(b) Simulator assisted learning</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/generative_learning.png" alt="(c) Generative model assisted learning"></p>
+
+<p>(c) Generative model assisted learning</p>
+
+<ul>
+  <li>
+    <p>Figure-2. <strong>Democratizing simulation-to-real learning with generative models.</strong> 图 2 - 使用生成模型将模拟到真实的学习民主化</p>
+
+    <p>When it comes to learning with generative models, one can draw similarities with well established <em>sim-to-real</em> approach [<a href="https://lilianweng.github.io/posts/2019-05-05-domain-randomization/" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://ai.bu.edu/syn2real/" rel="external nofollow noopener" target="_blank">2</a>]. In <em>sim-to-real</em> approach, we first learn representations in a simulated environment and utilize the acquired knowledge in real world tasks. We design such simulators to best immitate real world environment (e.g., in autonomous driving), but such simulators are only feasible for a handful of domains. In contrast, generative models can learn an approximation of real world environment from raw data. So the democratization comes from shifting the problem from <em>designing</em> an approximation of the real world environment to <em>learning</em> it from data, something deep learning is highly effictive at. The concrete research problem is how to best distill the knowledge from generative models for the downstream representation learning. As we will discuss next, the most straightforward way to incorporate generative models is by training on large amounts of synthetic images from it. Surprisingly this simple approach is highly effective in improving performance in common machine learning tasks.</p>
+
+    <hr>
+
+    <p>在使用生成模型进行学习时，可以得出与完善的模拟到真实方法 [1、2] 的相似之处。在 sim-to-real 方法中，我们首先在模拟环境中学习表示，并在现实世界的任务中利用获得的知识。我们设计此类模拟器以最好地模仿现实世界环境（例如，在自动驾驶中），但此类模拟器仅适用于少数几个领域。相反，生成模型可以从原始数据中学习对真实世界环境的近似。因此，民主化来自于将问题从设计真实世界环境的近似值转移到从数据中学习，而深度学习在这方面非常有效。具体的研究问题是如何最好地从生成模型中提取知识，用于下游表示学习。正如我们接下来将要讨论的那样，合并生成模型的最直接方法是对来自它的大量合成图像进行训练。令人惊讶的是，这种简单的方法在提高常见机器学习任务的性能方面非常有效。</p>
+  </li>
+</ul>
+
+<p><strong>Knowledge distillation from generative models.</strong> The success of generative models assisted learning critically depends on how well we can distill the knowledge from it. We may even need customized methods for different generative models. For example, while GANs can be modified to learn unsupervised representations simultaneously with generative models (<a href="https://www.deepmind.com/open-source/bigbigan" rel="external nofollow noopener" target="_blank">BigBiGAN</a>), such effective techniques haven’t yet been developed for diffusion models. In contrast, a more intuitive and straightforward approach is applicable to all generative models: Extracting synthetic data from generative models and use it for training downstream models. We will consider this approach in most of our experiments in the post. While there is significant room to improve beyond it, it should serve as a common baseline for follow-up methods. I’ll further discuss this direction at the end of the post.</p>
+
+<hr>
+
+<p><strong>从生成模型中提取知识</strong>。生成模型辅助学习的成功关键取决于我们如何从中提取知识。我们甚至可能需要为不同的生成模型定制方法。例如，虽然可以修改 GAN 以与生成模型 (<a href="https://www.deepmind.com/open-source/bigbigan" rel="external nofollow noopener" target="_blank">BigBiGAN</a>) 同时学习无监督表示，但尚未开发出适用于扩散模型的有效技术。相比之下，一种更直观、更直接的方法适用于所有生成模型：从生成模型中提取合成数据，并将其用于训练下游模型。我们将在本文的大部分实验中考虑这种方法。尽管除此之外还有很大的改进空间，但它应该作为后续方法的共同基线。我将在文章末尾进一步讨论这个方向。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/overview.jpeg" alt="https://vsehwag.github.io/blog/2022/4/data/overview.jpeg"></p>
+
+<ul>
+  <li>
+    <p>Figure-3. <strong>Learning with synthetic data.</strong> 图 3 - 学习合成数据</p>
+
+    <p>Overview of the pipeline where we distill knowledge from generative models by extracting a large amount of synthetic data from them and then using it in downstream representation learning.</p>
+
+    <p>我们通过从生成模型中提取大量合成数据来从生成模型中提取知识，然后将其用于下游表示学习的流程概述。</p>
+  </li>
+</ul>
+
+<p>Figure 3 summarizes our approach. We start with the images in the training dataset and train a generative model using them. An example would be training a DDPM (<a href="https://arxiv.org/abs/2006.11239" rel="external nofollow noopener" target="_blank">Ho et al.</a>) or StyleGAN (<a href="https://arxiv.org/abs/2006.06676" rel="external nofollow noopener" target="_blank">Karras et al.</a>) model using the 50,000 images in the cifar10 dataset. Once trained, the generative model gives us the ability to sample a very large number of synthetic images from it. In the following experiments, we will commonly sample one to ten million images. Finally, we combine the synthetic data with the real training images and train the classifier on the combined dataset. The hypothesis here is that the additional synthetic data will boost the performance of the classifier.</p>
+
+<hr>
+
+<p>图 3 总结了我们的方法。我们从训练数据集中的图像开始，并使用它们训练生成模型。例如，使用 cifar10 数据集中的 50,000 张图像训练 DDPM (<a href="https://arxiv.org/abs/2006.11239" rel="external nofollow noopener" target="_blank">Ho et al.</a>) 或 StyleGAN (<a href="https://arxiv.org/abs/2006.06676" rel="external nofollow noopener" target="_blank">Karras et al.</a>)  模型。一旦经过训练，生成模型使我们能够从中抽取大量合成图像。在接下来的实验中，我们通常会采样1~10m张图像。最后，我们将合成数据与真实训练图像结合起来，并在组合数据集上训练分类器。这里的假设是额外的合成数据将提高分类器的性能。</p>
+
+<h2 id="part-1"><strong>Part-1</strong></h2>
+
+<h3 id="inflection-point-with-progress-in-generative-models"><strong>Inflection point with progress in generative models</strong></h3>
+
+<p><strong>第 1 部分：生成模型进展的拐点</strong></p>
+
+<p>Using synthetic data from generative models in training is pretty straightforward.</p>
+
+<p><em>But would it help?</em></p>
+
+<hr>
+
+<p>在训练中使用来自生成模型的合成数据非常简单。</p>
+
+<p>但这会有帮助吗？</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/inflection_point.png" alt="https://vsehwag.github.io/blog/2022/4/data/inflection_point.png"></p>
+
+<ul>
+  <li>
+    <p>Figure-4. <strong>Inflection point with progress in generative models.</strong> 图 4 - 生成模型取得进展的拐点</p>
+
+    <p> Our objective is to measure how much additional boost we get in performance when we train a classifier on the combined set of real and synthetic data. At start of progress in generative models, low-quality synthetic data would likely degrade performance. An inflection point occurs when the synthetic data provides an additional boost in performance. On different datasets, we observe a varying degree of progress beyond the inflection point. E.g., we have progressed much farther on cifar10 than the ImageNet dataset.</p>
+
+    <hr>
+
+    <p>我们的目标是衡量当我们在真实数据和合成数据的组合集上训练分类器时，我们在性能上获得了多少额外提升。在生成模型开始取得进展时，低质量的合成数据可能会降低性能。当合成数据提供额外的性能提升时，就会出现拐点。在不同的数据集上，我们观察到超过拐点的不同程度的进展。例如，与 ImageNet 数据集相比，我们在 cifar10 上取得了更大的进步。</p>
+  </li>
+</ul>
+
+<p><strong>At start.</strong> I would like to argue that it will likely demonstrate an <em>inflection point</em> with progress in the quality of synthetic data. In early stages of progress, the generative model will start to approximate real data distribution, but struggle to generate high fidelity images. E.g., synthetic images from some of the early work on GAN aren’t highly photorealistic (fig. 1a, 1b). The synthetic data distribution learned by these early generative models will have a large gap from real data distribution, therefore simply combining these synthetic images with real data will lead to performance degradation. Note that this gap can be potentially minimized by using additional domain adaptation techniques [<a href="https://arxiv.org/pdf/1409.7495.pdf" rel="external nofollow noopener" target="_blank">1</a>].</p>
+
+<hr>
+
+<p>首先。我想争辩说，随着合成数据质量的进步，它可能会出现一个拐点。在进展的早期阶段，生成模型将开始逼近真实数据分布，但难以生成高保真图像。例如，来自 GAN 的一些早期工作的合成图像并不是非常逼真（图1a、1b）。这些早期生成模型学习到的合成数据分布与真实数据分布会有很大差距，因此简单地将这些合成图像与真实数据结合会导致性能下降。请注意，可以通过使用额外的域适应技术 [<a href="https://arxiv.org/pdf/1409.7495.pdf" rel="external nofollow noopener" target="_blank">1</a>]来潜在地最小化这种差距。</p>
+
+<p><strong>Near inflection point.</strong> With improvement in generative models, one can start generating novel high fidelity images. Progress in generative models is a testament of it, where modern GANs generates stunning realistic image [<a href="https://nvlabs.github.io/stylegan3/" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/pdf/2107.04589.pdf" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html" rel="external nofollow noopener" target="_blank">3</a>], requiring dedicated efforts to distinguish them from the real ones, i.e., deepfake detection [<a href="https://arxiv.org/pdf/1812.08685.pdf" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/pdf/2006.07397.pdf" rel="external nofollow noopener" target="_blank">2</a>]. At this point, synthetic data certainly won’t hurt the performance, since it lies very close to real-data distribution. But would it help, i.e., cross the inflection point?</p>
+
+<hr>
+
+<p>在拐点附近。随着生成模型的改进，人们可以开始生成新颖的高保真图像。生成模型的进步证明了这一点，现代 GAN 生成令人惊叹的逼真图像 [<a href="https://nvlabs.github.io/stylegan3/" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/pdf/2107.04589.pdf" rel="external nofollow noopener" target="_blank">2</a>, <a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html" rel="external nofollow noopener" target="_blank">3</a>]，需要付出专门的努力才能将它们与真实图像区分开来，即 deepfake 检测[<a href="https://arxiv.org/pdf/1812.08685.pdf" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://arxiv.org/pdf/2006.07397.pdf" rel="external nofollow noopener" target="_blank">2</a>]。在这一点上，合成数据肯定不会影响性能，因为它非常接近真实数据分布。但这会有所帮助，即跨越拐点吗？</p>
+
+<p><strong>Crossing inflection point.</strong> To cross the inflection point, we not only need to generate novel high fidelity synthetic images but also achieve high diversity in these images. Synthetic images from GANs often lack diversity, which makes GANs not the most suitable choice. In contrast, diffusion based generative models achieve both high fidelity and diversity, simultaneously [<a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">1</a>]. Across all datasets that we tested, we find that using synthetic images from diffusion models crosses the inflection point. Though how much it progresses beyond the inflection point varies across dataset. For example, while synthetic data from diffusion models bring a tremendous boost in performance on cifar10 dataset, it barely crosses the inflection point on ImageNet dataset.</p>
+
+<hr>
+
+<p>跨越拐点。为了跨越拐点，我们不仅需要生成新颖的高保真合成图像，还要在这些图像中实现高度多样性。来自 GAN 的合成图像通常缺乏多样性，这使得 GAN 不是最合适的选择。相比之下，基于扩散的生成模型同时实现了高保真度和多样性 [<a href="https://arxiv.org/abs/2105.05233" rel="external nofollow noopener" target="_blank">1</a>]。在我们测试的所有数据集中，我们发现使用来自扩散模型的合成图像跨越了拐点。尽管超过拐点的进展程度因数据集而异。例如，虽然来自扩散模型的合成数据在 cifar10 数据集上带来了巨大的性能提升，但它几乎没有超过 ImageNet 数据集上的拐点。</p>
+
+<h3 id="state-of-the-art-have-we-crossed-the-inflection-point-on-common-vision-datasets"><strong>State-of-the-art: Have we crossed the inflection point on common vision datasets?</strong></h3>
+
+<p><strong>最先进的：我们是否跨越了常见视觉数据集的拐点？</strong></p>
+
+<p>The short answer, <strong>yes</strong>. We consider four datasets, namely cifar10, cifar100, imagenet, and celebA. For each dataset, we aim to train two networks. One trained on only real images and the other trained on combination of both real and synthetic images. If latter network achieves better test accuracy, then we claim that the synthetic data crosses the inflection point, i.e., using synthetic data boost performance.</p>
+
+<hr>
+
+<p>简短的回答，是的。我们考虑四个数据集，即 cifar10、cifar100、imagenet 和 celebA。对于每个数据集，我们的目标是训练两个网络。一个只训练真实图像，另一个训练真实图像和合成图像的组合。如果后一个网络达到更好的测试精度，那么我们声称合成数据越过拐点，即使用合成数据提升性能。</p>
+
+<p>The next question is which experimental setup we should choose to study the impact of synthetic data. The first choice is baseline/benign training, i.e., training a neural network to achieve best generazation, i.e., test accuracy on images. However, we observe that synthetic data is even more helpful across a more challenging tasks, i.e., robust generalization (figure 5-a).</p>
+
+<hr>
+
+<p>下一个问题是我们应该选择哪种实验装置来研究合成数据的影响。首选是基线/良性训练，即训练神经网络以实现最佳生成，即测试图像的准确性。然而，我们观察到合成数据在更具挑战性的任务中更有帮助，即鲁棒的泛化（图 5-a）。</p>
+
+<h3 id="curious-case-of-robustadversarial-training"><strong>Curious case of robust/adversarial training</strong></h3>
+
+<p><strong>鲁棒/对抗训练的奇特案例</strong></p>
+
+<p>The objective in adversarial/robust training is to harden the classifiers against adversarial examples (provide link). Thus the metric of interest is the accuracy on test-set adversarial examples, i.e., robust accuracy. Surprisingly, defending against adversarial examples is extremely hard. State-of-the-art robust accuracy, even on simpler dataset like cifar10, remain quite low. It is well established the generalization with adversarial training requires significantly more data [<a href="https://arxiv.org/abs/1804.11285" rel="external nofollow noopener" target="_blank">1</a>]. This high sample complexity of adversarial training likely leads to the higher benefit of synthetic data.</p>
+
+<hr>
+
+<p>对抗性/鲁棒训练的目标是强化分类器以对抗对抗样本（提供链接）。因此，感兴趣的指标是测试集对抗样本的准确性，即鲁棒准确性。令人惊讶的是，防御对抗样本非常困难。即使在像 cifar10 这样更简单的数据集上，最先进的鲁棒精度仍然很低。众所周知，对抗训练的泛化需要更多的数据 [<a href="https://arxiv.org/abs/1804.11285" rel="external nofollow noopener" target="_blank">1</a>]。对抗训练的这种高样本复杂性可能会导致合成数据的更高收益。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/why_robust_training.png" alt="(a) Success in benign and adversarial training"></p>
+
+<p>(a) Success in benign and adversarial training</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/improvement_robust_accuracy.jpeg" alt="(b) Success with different datasets in training with adversarial training."></p>
+
+<p>(b) Success with different datasets in training with adversarial training.</p>
+
+<ul>
+  <li>
+    <p>Figure-5. 图 5</p>
+
+    <p>(a) <strong>Why study robust training.</strong> We first show that the impact of synthetic data is much more significant in robust training then the regular/benign training. This is particularly due to higher sample complexity of robust training.</p>
+
+    <p>(b) We measure the benefit of training on both synthetic and real images, compared to just real images, on common image datasets.</p>
+
+    <hr>
+
+    <p>(a) 为什么要研究鲁棒训练。我们首先表明，合成数据的影响在鲁棒训练中比在常规/良性训练中更为重要。这尤其是由于鲁棒训练的样本复杂性较高。</p>
+
+    <p>(b) 我们衡量了在普通图像数据集上对合成图像和真实图像进行训练与仅对真实图像进行训练相比的好处。</p>
+  </li>
+</ul>
+
+<p>Across all four datasets, we find that training with combined real and synthetic data achieved better performance than training only on real data (Figure 5-b). However, the impact of synthetic data varies with datasets, e.g., in comparison to cifar10, the benefit on ImageNet is quite small. It brings us to the discussion on the inflection point, where the success of generative models varies across datasets. ImageNet is strictly a harder dataset than cifar (more number of classes, diverse images), making it much harder for generative models to generate both high quality and diverse images on this dataset.</p>
+
+<hr>
+
+<p>在所有四个数据集中，我们发现结合真实数据和合成数据进行训练比仅对真实数据进行训练取得了更好的性能（图 5-b）。然而，合成数据的影响因数据集而异，例如，与 cifar10 相比，ImageNet 的优势非常小。它把我们带到了关于拐点的讨论，生成模型的成功因数据集而异。严格来说，ImageNet 是一个比 cifar 更难的数据集（更多的类别，不同的图像），这使得生成模型更难在此数据集上生成高质量和多样化的图像。</p>
+
+<h2 id="part-2"><strong>Part-2</strong></h2>
+
+<h3 id="understanding-why-synthetic-helpsits-not-just-about-photorealism"><strong>Understanding why synthetic helps (its not just about photorealism)</strong></h3>
+
+<p><strong>第 2 部分：理解为什么合成有帮助（它不仅仅是<a href="https://baike.baidu.com/item/%E7%85%A7%E7%9B%B8%E5%86%99%E5%AE%9E%E4%B8%BB%E4%B9%89/624257" rel="external nofollow noopener" target="_blank">照片写实主义</a>）</strong></p>
+
+<p>The unique advantage of generative models is that we can sample unlimited amount of synthetic images from them. E.g., we used 1-10 million synthetic images for most experiments. But as we highlighted in figure 4, augmenting synthetic images help only when progress in generative have cross an inflection point. Before we quantify the progress in this section, here is a challenge.</p>
+
+<hr>
+
+<p>生成模型的独特优势在于我们可以从中采样无限量的合成图像。例如，我们在大多数实验中使用了 1-10m张合成图像。但正如我们在图 4 中强调的那样，增强合成图像只有在生成的进展跨越拐点时才有用。在我们量化本节的进展之前，这里有一个挑战。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_real.png" alt="(a) Real Images (CIFAR-10)"></p>
+
+<p>(a) Real Images (CIFAR-10)</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_ddpm.png" alt="(b) [DDPM](https://arxiv.org/abs/2006.11239) "></p>
+
+<p>(b) <a href="https://arxiv.org/abs/2006.11239" rel="external nofollow noopener" target="_blank">DDPM</a> </p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/samples_images_styleC.png" alt="(c) [StyleGAN](https://arxiv.org/abs/2006.06676)"></p>
+
+<p>(c) <a href="https://arxiv.org/abs/2006.06676" rel="external nofollow noopener" target="_blank">StyleGAN</a></p>
+
+<ul>
+  <li>
+    <p>Figure-6. <strong>Which generative model is better?</strong> 图 6 - 哪种生成模型更好？</p>
+
+    <p>Can we identify which of the generative models (DDPM and StyleGAN) yields better quality synthetic images. We measure quality by the generalization accuracy on real images, i.e., when learning from synthetic data, how much accuracy we achieve on real data.</p>
+
+    <p>我们能确定哪些生成模型（DDPM 和 StyleGAN）产生质量更好的合成图像吗？我们通过真实图像的泛化精度来衡量质量，即，当从合成数据中学习时，我们在真实数据上达到了多少精度。</p>
+  </li>
+</ul>
+
+<p>In the figure above, we display real cifar-10 images for synthetic images from diffusion (DDPM) and stylegan based generative model. Our objective is to combine synthetic images from a generative models with real images in training cifar-10 classifier. Consider the following question: <strong>Which of the two sets of synthetic images (DDPM vs StyleGAN) will be most helpful, when combined with real data?</strong></p>
+
+<hr>
+
+<p>在上图中，我们显示了用于扩散 (DDPM) 和stylegan 的生成模型合成图像的真实 cifar-10 图像。我们的目标是在训练 cifar-10 分类器时将来自生成模型的合成图像与真实图像结合起来。考虑以下问题：当与真实数据结合时，两组合成图像（DDPM 与 StyleGAN）中的哪组最有帮助？</p>
+
+<p>Both set of synthetic images are highly photo-realistic, but benefit of ddpm images significantly outperform styleGAN. For example, training with real+ddpm-synthetic images achieves more than 1-2% higher test accuracy than training on real+stylegan-synthetic images on cifar-10 dataset. The difference is even higher than 5-6% with robust training. The motivation behind this question was to highlight the challenge of identifying the best generative model, even for humans. This is because the quality of synthetic data for purpose of represnetation learning depends on both image quality and diversity. While humans are an excellent judge of former, we need a distribution level comparison to concretely measure both.</p>
+
+<hr>
+
+<p>两组合成图像都非常逼真，但 ddpm 图像的优势明显优于 styleGAN。例如，在 cifar-10 数据集上，使用 real+ddpm-synthetic 图像进行训练比使用 real+stylegan-synthetic 图像进行训练的测试准确率高出 1-2% 以上。通过鲁棒的训练，差异甚至高于 5-6%。这个问题背后的动机是强调识别最佳生成模型的挑战，即使对于人类也是如此。这是因为用于表示学习的合成数据的质量取决于图像质量和多样性。虽然人类是前者的优秀判断者，但我们<strong>需要一个分布水平比较来具体衡量两者</strong>。</p>
+
+<h3 id="how-real-is-fake-data-measuring-distinguishability-of-real-and-synthetic-data-distributions"><strong>How real is fake data? Measuring distinguishability of real and synthetic data distributions.</strong></h3>
+
+<p><strong>假数据有多真实？测量真实和合成数据分布的可区分性。</strong></p>
+
+<p>The common approach to measure the distribution distance between real and synthetic data using Fréchet inception distance (<a href="https://arxiv.org/abs/1706.08500" rel="external nofollow noopener" target="_blank">FID</a>). FID simply measures the proximity of real and synthetic data using Wasserstein-2 distance in the feature space of deep neural network. So naturally the first approach would be to test if FID can explain why synthetic data from some generative models is more beneficial in learning than others. In particular, why diffusion models significantly more effective then contemporary GANs?</p>
+
+<hr>
+
+<p>使用 Fréchet inception distance (<a href="https://arxiv.org/abs/1706.08500" rel="external nofollow noopener" target="_blank">FID</a>) 测量真实数据和合成数据之间分布距离的常用方法。 FID 只是在深度神经网络的特征空间中使用 Wasserstein-2 距离来衡量真实数据和合成数据的接近程度。因此，自然而然地，第一种方法是测试 FID 是否可以解释为什么来自某些生成模型的合成数据比其他模型更有利于学习。特别是，为什么扩散模型比现代 GAN 更有效？</p>
+
+<p>To test this hypothesis, we consider six generative models on cifar10 (five gans and one diffusion model). We first train a robust classifier on 1M synthetic images and measure the performance of real data. As expected, diffusion model synthetic images achieve much higher generalization than other generative models (Table 1). Next, we measure FID of synthetic images from each model. Surprisingly, FID doesn’t align with the generalization performance observed when learning from synthetic data. E.g., FID for styleGAN is better than DDPM model while the latter achieves much better generalization performance on real data.</p>
+
+<hr>
+
+<p>为了检验这一假设，我们考虑了 cifar10 上的六个生成模型（五个GAN模型和一个扩散模型）。我们首先在 1M 合成图像上训练一个鲁棒的分类器并测量真实数据的性能。正如预期的那样，扩散模型合成图像比其他生成模型实现了更高的泛化（表 1）。接下来，我们测量每个模型的合成图像的 FID。令人惊讶的是，FID 与从合成数据中学习时观察到的泛化性能不一致。例如，styleGAN 的 FID 优于 DDPM 模型，而后者在真实数据上实现了更好的泛化性能。</p>
+
+<p>Since the goal is to measure distinguishability of two distributions, we try a classification based approach. If synthetic data is indistinguishable from real, then it would be harder to classify them. We test this hypothesis using a binary classifier. However, it turns out that even few layer neural network swere able successfully classify between real and synthetic data of all generative models with near 100% accuracy.</p>
+
+<hr>
+
+<p>由于目标是衡量两个分布的可区分性，我们尝试了一种基于分类的方法。如果合成数据与真实数据无法区分，那么就更难对它们进行分类。我们使用二元分类器检验这个假设。然而，事实证明，即使是几层神经网络也能够以接近 100% 的准确率成功地对所有生成模型的真实数据和合成数据进行分类。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_motivation.jpeg" alt="(a) *Binary classification beween real and synthetic data.* We expand each sample using $\epsilon$-ball, which makes classification success dependent on proximity of synthetic data to real data. (a) 真实数据和合成数据之间的二元分类。我们使用 $\epsilon$-ball 扩展每个样本，这使得分类成功取决于合成数据与真实数据的接近程度。"></p>
+
+<p>(a) <em>Binary classification beween real and synthetic data.</em> We expand each sample using $\epsilon$-ball, which makes classification success dependent on proximity of synthetic data to real data. (a) 真实数据和合成数据之间的二元分类。我们使用 $\epsilon$-ball 扩展每个样本，这使得分类成功取决于合成数据与真实数据的接近程度。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_curve.png" alt="(b) *ARC.* It refers to the area under the classification success and epsilon( $\epsilon$) curve. Lower ARC score implier higher proximity of synthetic data to real data. (b) ARC 它指的是分类成功和 epsilon( $\epsilon$ ) 曲线下的面积。较低的 ARC 分数意味着合成数据与真实数据的接近度更高。"></p>
+
+<p>(b) <em>ARC.</em> It refers to the area under the classification success and epsilon( $\epsilon$) curve. Lower ARC score implier higher proximity of synthetic data to real data. (b) ARC 它指的是分类成功和 epsilon( $\epsilon$ ) 曲线下的面积。较低的 ARC 分数意味着合成数据与真实数据的接近度更高。</p>
+
+<ul>
+  <li>
+    <p>Figure-7. 图 7</p>
+
+    <p>When using binary classification as a tool to measure the proximity between synthetic and real data, we encounter an unexpected issue. Even a few layer network successfully classified all synthetic datasets from real. We introduce  $\epsilon$ -balls, i.e., expand each data point using an  $\epsilon$-radius $l_2$ ball around it and ask the classifier to classify these balls correctly. This simple trick makes the classification success dependent on proximity of real and fake data, since lower proximity will lead to balls intersections, thus making classification inpossible. One can then easily derive a metric (we name is ARC) which measures how hard the classification gets with increase in the size of  $\epsilon$-balls.</p>
+
+    <hr>
+
+    <p>当使用二元分类作为衡量合成数据和真实数据之间接近程度的工具时，我们遇到了一个意想不到的问题。即使是几层网络也成功地将所有合成数据集与真实数据集进行了分类。我们引入 $\epsilon$ -球，即使用   $\epsilon$-半径 $l_2$ 球围绕它扩展每个数据点，并要求分类器对这些球进行正确分类。这个简单的技巧使分类成功取决于真实数据和假数据的接近程度，因为较低的接近程度会导致球相交，从而使分类变得不可能。然后可以很容易地推导出一个度量（我们命名为 ARC），它衡量随着 $\epsilon$ 球大小的增加分类的难度。</p>
+  </li>
+</ul>
+
+<p>So we need to increase the dependence on discriminator success on distance between real and synthetic data distributions. This can be achieve using a very simple tool: $\epsilon$-balls (figure 7.a). We first draw a ball of radius $r$ (it’s a hypersphere if we use $l_2$ norm and a hypercube for $l_\infty$ norm) around each data point. Now the objective is to classify all $\epsilon$-balls correctly. If the synthetic and real dataset are in close proximity, drawing a decision boundary between them will become hard with small values of $\epsilon$ itself. We measure the area under the classification success and $\epsilon$ curve (referred to as ARC). ARC effectively measures the distinguishability of synthetic data from real data.</p>
+
+<hr>
+
+<p>因此，我们需要增加对鉴别器成功对真实数据分布和合成数据分布之间距离的依赖。这可以使用一个非常简单的工具来实现： $\epsilon$-balls（图 7.a）。我们首先在每个数据点周围绘制一个半径为 $r$ 的球（如果我们使用 $l_2$ 范数和 $l_\infty$ 范数则为超立方体）。现在的目标是正确分类所有 $\epsilon$-balls。如果合成数据集和真实数据集非常接近，在它们之间绘制决策边界将变得很难，因为 $\epsilon$ 本身的值很小。我们测量分类成功和 $\epsilon$ 曲线下的面积（简称ARC）。 ARC 有效地衡量了合成数据与真实数据的可区分性。</p>
+
+<p>ARC also explain why synthetic data from diffusion models is significantly more helpful than any other generative model. On cifar10 dataset, ARC values for diffusion mode is 0.06, much lower than the best performing GAN (table-2). It also serves as a better metric than FID in predicting generative model success when their synthetic data is used in augment real data.</p>
+
+<hr>
+
+<p>ARC 还解释了为什么来自扩散模型的合成数据比任何其他生成模型更有用。在 cifar10 数据集上，扩散模式的 ARC 值为 0.06，远低于表现最佳的 GAN（表 2）。当它们的合成数据用于增强真实数据时，它在预测生成模型成功方面也比 FID 更好。</p>
+
+<p><img src="https://vsehwag.github.io/blog/2022/4/data/arc_success.jpeg" alt="https://vsehwag.github.io/blog/2022/4/data/arc_success.jpeg"></p>
+
+<ul>
+  <li>
+    <p>Table-1. <strong>Measuring distribution distance between real and synthetic data with ARC (Limitation of FID).</strong> 表格1 - 使用 ARC（FID的限制）测量真实数据和合成数据之间的分布距离</p>
+
+    <p>Our objective is to test whether the distance between real and synthetic datasets can predict the benefit of synthetic data in classification. For the ground truth, we adversarially train a wide-resnet model on one million synthetic images for each generative model and measure its robust accuracy on <em>real</em> cifar-10 images. Intuitively, if synthetic data is close to real data then we would expect it to provide higher benefit. But how do we measure proximity of synthetic data to real. FID is the most common metric for this task, where it measures the Wasserstein distance between real and synthetic data distribution in the feature space. However, models with better FID (lower is better) doesn’t necessarily provide a better performance boost in learning. E.g., FID for styleGAN is better than diffusion model (ddpm) but the latter achieves better generalization on real data. As a solution, we propose ARC, which successfully explains the benefit of different generative models. Especially it explains why dffision models are much better than others since ARC score for diffusion models is much better than all other models in our study.。</p>
+
+    <hr>
+
+    <p>我们的目标是测试真实数据集和合成数据集之间的距离是否可以预测合成数据在分类中的优势。根据真实类别，我们针对每个生成模型在一百万张合成图像上对抗性地训练一个 wide-resnet 模型，并测量其在真实 cifar-10 图像上的鲁棒精度。直觉上，如果合成数据接近真实数据，那么我们会期望它提供更高的收益。但是我们如何衡量合成数据与真实数据的接近程度。 FID 是此任务最常用的指标，它测量特征空间中真实数据分布和合成数据分布之间的 Wasserstein 距离。然而，具有更好 FID（越低越好）的模型并不一定能在学习中提供更好的性能提升。例如，styleGAN 的 FID 优于扩散模型 (ddpm)，但后者在真实数据上实现了更好的泛化。作为解决方案，我们提出了 ARC，它成功地解释了不同生成模型的好处。特别是它解释了为什么 dffision 模型比其他模型好得多，因为扩散模型的 ARC 得分比我们研究中的所有其他模型好得多。</p>
+  </li>
+</ul>
+
+<h2 id="discussion"><strong>Discussion</strong></h2>
+
+<p>This post is largely based on my recent work that demonstrates benefit of synthetic data diffusion models in robust learning. The motivation to write it was to discuss the potential and bigger picture of how synthetic data can play a crucial role in deep learning, something that the rigid and scientific writing style of a paper doesn’t permit.</p>
+
+<hr>
+
+<p>这篇文章主要基于我最近的工作，该工作展示了合成数据扩散模型在鲁棒学习中的好处。写这篇文章的动机是讨论合成数据如何在深度学习中发挥关键作用的潜力和更广阔的前景，这是一篇严谨而科学的写作风格所不允许的。</p>
+
+<blockquote>
+  <p><em>Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?</em>, Sehwag et al., <strong>ICLR 2022</strong> (<a href="https://arxiv.org/abs/2104.09425" rel="external nofollow noopener" target="_blank">Link</a>)</p>
+
+</blockquote>
+
+<p>Diffusion models finally enable the use of synthetic data as a mean to improve representation learning, i.e., move past the inflection point. With further progress in diffusion models, we will likely see higher utility from their synthetic data. However, one doesn’t need to limit to using synthetic data as the only approach to integrate diffusion models in representation learning pipeline. In fact, the most important question in the research direction is <strong>how to distill knowledge from diffusion models?</strong> The current setup, i.e., sample synthetic images and use them with real data is a strong baseline, but has two limitations 1) It treats generative models in insolation to discriminative models 2) In addition, the generative models were trained without accounting that the resulted synthetic data will be used for augmentation in classification tasks. A more harmonious integration of both models will likely further improve performance.</p>
+
+<hr>
+
+<p>扩散模型最终能够使用合成数据作为改进表示学习的手段，即越过拐点。随着扩散模型的进一步发展，我们可能会从他们的合成数据中看到更高的效用。然而，不需要限制使用合成数据作为将扩散模型集成到表示学习管道中的唯一方法。事实上，研究方向最重要的问题是如何从扩散模型中提取知识？当前的设置，即对合成图像进行采样并将其与真实数据一起使用是一个强大的基线，但有两个<strong>局限性 1) 它将日照中的生成模型处理为判别模型 2) 此外，生成模型的训练没有考虑结果合成数据将用于增强分类任务。</strong>两种模型的更和谐集成可能会进一步提高性能。</p>
+
+<p><strong>Adaptive sampling.</strong> Are are all synthetic samples equally beneficial? We touch upon this question in our work [<a href="https://arxiv.org/abs/2104.09425" rel="external nofollow noopener" target="_blank">1</a>] and show that one can get extra benefit from synthetic data by adaptively selecting samples. However, there is so much that can be done in this direction. Ideally we want to sample synthetic images from low-density regions on data manifold, i.e., regions on the data manifold that are poorly covered by real data.</p>
+
+<hr>
+
+<p>自适应采样。所有合成样本都同样有益吗？我们在我们的工作 [<a href="https://arxiv.org/abs/2104.09425" rel="external nofollow noopener" target="_blank">1</a>] 中谈到了这个问题，并表明可以<strong>通过自适应选择样本从合成数据中获得额外的好处</strong>。但是，在这个方向上可以做很多事情。理想情况下，我们希望从数据流形上的低密度区域（即数据流形上未被真实数据覆盖的区域）采样合成图像。</p>
+
+<p><strong>Fine-grained metrics to measure synthetic data quality.</strong> To develop adaptive sampling techniques, we essentially need to build measurement tools to indentify quality of different subgroups of synthetic images. In other words, what we can’t measure, we can’t understand. Metrics such as FID, Precision-Recall, and ARC only provides a distribution level measure of data quality. We would need to develop metric, or tune existing ones, to cater to sub-groups of our datsets.</p>
+
+<p><strong>用于衡量合成数据质量的细粒度指标</strong>。为了开发自适应采样技术，我们本质上需要构建测量工具来识别不同合成图像子组的质量。换句话说，我们无法衡量的东西，我们无法理解。 FID、Precision-Recall 和 ARC 等指标仅提供数据质量的分布级别度量。我们需要开发指标或调整现有指标，以迎合数据集的子组。</p>
+
+<blockquote>
+  <p>Translate by @Yongkang Chen 2023/04/29</p>
+
+</blockquote>
+
+  </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/">人工智能顶会 Paper | Workshop | Tutorial</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/">一个博士生接受怎样的训练是完整、全面的科研训练？[转]</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/How-to-keep-track-with-the-literature/">How to keep track with the literature</a>
+  </li>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Yongkang  Chen. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
