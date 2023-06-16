@@ -121,6 +121,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-twitter-plugin
   - jemoji
   # - bootstrap
   # - material-sass
