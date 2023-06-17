@@ -10,7 +10,7 @@ categories: 论文追踪
 # 2023
 
 | Conference | Submission | Notification | Accepted | Workshop | Tutorial |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | ICLR      | Sep 28, 22      | Jan 21, 23 |[[*list*]](https://iclr.cc/virtual/2023/papers.html) | [[*list*]](https://iclr.cc/virtual/2023/events/workshop) <br>[可信机器学习中有限数据和计算的缺陷](https://sites.google.com/view/trustml-unlimited/home)<br> [可信可靠的大规模机器学习](https://rtml-iclr2023.github.io/) <br> [机器学习后门攻击与防御](https://iclr23-bands.github.io/)| |
 | NeurIPS   | May 17, 23       | Sep 21, 23  |  |  |  |
 | ICML      | Jan 26, 23      | Apr 24, 23 |[[*list*]](https://icml.cc/virtual/2023/papers.html) | [[*list*]](https://icml.cc/virtual/2023/events/workshop) <br> [机器学习形式化验证](https://www.ml-verification.com/)| [[*list*]](https://icml.cc/virtual/2023/events/tutorial) |
@@ -21,7 +21,7 @@ categories: 论文追踪
 # 2022
 
 | Conference | Submission | Notification | Accepted | Workshop | Tutorial |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | ICLR | Oct 06, 21 |  Jan 24, 22| [[*list*]](https://iclr.cc/virtual/2022/papers.html) |[[*list*]](https://iclr.cc/virtual/2022/events/workshop)  |  |
 | NeurIPS |May 19, 22  | 	Sep 14,22 | [[*list*]](https://nips.cc/virtual/2022/papers.html) | [[*list*]](https://nips.cc/virtual/2022/events/workshop) <br> [机器学习安全](https://neurips2022.mlsafety.org/) <br> [因果和隐私视角的算法公平性](https://www.afciworkshop.org/) <br> [可信负责的机器学习](https://tsrml2022.github.io/) |[[*list*]](https://nips.cc/virtual/2022/events/tutorial)<br>[终身机器学习](https://sites.google.com/view/neurips2022-llm-tutorial) <br> [基础模型的基本鲁棒性](https://sites.google.com/view/neurips2022-frfm-turotial) <br> [算法公平性](https://sites.google.com/mila.quebec/fairnesstutorial/)  |
 | ICML |Jan 27, 22  | May 14, 22 | [[*list*]](https://icml.cc/virtual/2022/papers.html) |[[*list*]](https://icml.cc/virtual/2022/events/workshop)<br> [机器学习用于网络安全](https://sites.google.com/view/icml-ml4cyber/home) | [[*list*]](https://icml.cc/virtual/2022/events/Tutorial) |
