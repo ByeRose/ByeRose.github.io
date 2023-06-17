@@ -1,65 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T13:58:57+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T14:07:15+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">人工智能顶会 Paper | Workshop | Tutorial</title><link href="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&Workshop&Tutorial/" rel="alternate" type="text/html" title="人工智能顶会 Paper | Workshop | Tutorial" /><published>2023-05-11T20:40:16+00:00</published><updated>2023-05-11T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/"><![CDATA[<h1 id="2023">2023</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Conference</th>
-      <th>Submission</th>
-      <th>Notification</th>
-      <th>Accepted</th>
-      <th>Workshop</th>
-      <th>Tutorial</th>
+      <th style="text-align: center">Conference</th>
+      <th style="text-align: center">Submission</th>
+      <th style="text-align: center">Notification</th>
+      <th style="text-align: center">Accepted</th>
+      <th style="text-align: center">Workshop</th>
+      <th style="text-align: center">Tutorial</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ICLR</td>
-      <td>Sep 28, 22</td>
-      <td>Jan 21, 23</td>
-      <td><a href="https://iclr.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
-      <td><a href="https://iclr.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /><a href="https://sites.google.com/view/trustml-unlimited/home">可信机器学习中有限数据和计算的缺陷</a><br /> <a href="https://rtml-iclr2023.github.io/">可信可靠的大规模机器学习</a> <br /> <a href="https://iclr23-bands.github.io/">机器学习后门攻击与防御</a></td>
-      <td> </td>
+      <td style="text-align: center">ICLR</td>
+      <td style="text-align: center">Sep 28, 22</td>
+      <td style="text-align: center">Jan 21, 23</td>
+      <td style="text-align: center"><a href="https://iclr.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://iclr.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /><a href="https://sites.google.com/view/trustml-unlimited/home">可信机器学习中有限数据和计算的缺陷</a><br /> <a href="https://rtml-iclr2023.github.io/">可信可靠的大规模机器学习</a> <br /> <a href="https://iclr23-bands.github.io/">机器学习后门攻击与防御</a></td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td>NeurIPS</td>
-      <td>May 17, 23</td>
-      <td>Sep 21, 23</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <td style="text-align: center">NeurIPS</td>
+      <td style="text-align: center">May 17, 23</td>
+      <td style="text-align: center">Sep 21, 23</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td>ICML</td>
-      <td>Jan 26, 23</td>
-      <td>Apr 24, 23</td>
-      <td><a href="https://icml.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
-      <td><a href="https://icml.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /> <a href="https://www.ml-verification.com/">机器学习形式化验证</a></td>
-      <td><a href="https://icml.cc/virtual/2023/events/tutorial">[<em>list</em>]</a></td>
+      <td style="text-align: center">ICML</td>
+      <td style="text-align: center">Jan 26, 23</td>
+      <td style="text-align: center">Apr 24, 23</td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /> <a href="https://www.ml-verification.com/">机器学习形式化验证</a></td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2023/events/tutorial">[<em>list</em>]</a></td>
     </tr>
     <tr>
-      <td>CVPR</td>
-      <td>Nov 11, 22</td>
-      <td>Feb 27, 23</td>
-      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers">[<em>lsit</em>]</a></td>
-      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/workshop-list">[<em>list</em>]</a><br /> <a href="https://ai4cc.net/">AI内容创作</a> <br /> <a href="https://generative-vision.github.io/workshop-CVPR-23/">计算机视觉生成模型</a> <br /> <a href="https://robustart.github.io/">对抗机器学习：鲁棒的艺术</a> <br /> <a href="https://fadetrcv.github.io/2023/">公平数据高效和可信的计算机视觉</a></td>
-      <td><a href="https://cvpr2023.thecvf.com/Conferences/2023/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr2023red">欺骗的逆向工程：基础与应用</a><br /><a href="https://dl-theory.github.io/">计算机视觉的深度学习理论</a><br /><a href="https://sites.google.com/view/clvision2023">持续学习</a><br /><a href="https://cvpr2023-tutorial-diffusion-models.github.io/">扩散模型：生成式学习大爆炸</a><br /><a href="https://all-things-vits.github.io/atv/">理解和解释视觉注意力</a></td>
+      <td style="text-align: center">CVPR</td>
+      <td style="text-align: center">Nov 11, 22</td>
+      <td style="text-align: center">Feb 27, 23</td>
+      <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers">[<em>lsit</em>]</a></td>
+      <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/workshop-list">[<em>list</em>]</a><br /> <a href="https://ai4cc.net/">AI内容创作</a> <br /> <a href="https://generative-vision.github.io/workshop-CVPR-23/">计算机视觉生成模型</a> <br /> <a href="https://robustart.github.io/">对抗机器学习：鲁棒的艺术</a> <br /> <a href="https://fadetrcv.github.io/2023/">公平数据高效和可信的计算机视觉</a></td>
+      <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr2023red">欺骗的逆向工程：基础与应用</a><br /><a href="https://dl-theory.github.io/">计算机视觉的深度学习理论</a><br /><a href="https://sites.google.com/view/clvision2023">持续学习</a><br /><a href="https://cvpr2023-tutorial-diffusion-models.github.io/">扩散模型：生成式学习大爆炸</a><br /><a href="https://all-things-vits.github.io/atv/">理解和解释视觉注意力</a></td>
     </tr>
     <tr>
-      <td>ICCV</td>
-      <td>March 8, 23</td>
-      <td>July 13, 23</td>
-      <td> </td>
-      <td><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-363300-4-31-33.php">[<em>lsit</em>]</a></td>
-      <td> </td>
+      <td style="text-align: center">ICCV</td>
+      <td style="text-align: center">March 8, 23</td>
+      <td style="text-align: center">July 13, 23</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-363300-4-31-33.php">[<em>lsit</em>]</a></td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td>ACL</td>
-      <td>Dec 15, 22</td>
-      <td>May 1, 23</td>
-      <td> </td>
-      <td><a href="https://2023.aclweb.org/program/workshops/">[<em>list</em>]</a><br /><a href="https://trustnlpworkshop.github.io/">可信的自然语言处理</a></td>
-      <td><a href="https://2023.aclweb.org/program/tutorials/">[<em>list</em>]</a></td>
+      <td style="text-align: center">ACL</td>
+      <td style="text-align: center">Dec 15, 22</td>
+      <td style="text-align: center">May 1, 23</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://2023.aclweb.org/program/workshops/">[<em>list</em>]</a><br /><a href="https://trustnlpworkshop.github.io/">可信的自然语言处理</a></td>
+      <td style="text-align: center"><a href="https://2023.aclweb.org/program/tutorials/">[<em>list</em>]</a></td>
     </tr>
   </tbody>
 </table>
@@ -69,54 +69,54 @@
 <table>
   <thead>
     <tr>
-      <th>Conference</th>
-      <th>Submission</th>
-      <th>Notification</th>
-      <th>Accepted</th>
-      <th>Workshop</th>
-      <th>Tutorial</th>
+      <th style="text-align: center">Conference</th>
+      <th style="text-align: center">Submission</th>
+      <th style="text-align: center">Notification</th>
+      <th style="text-align: center">Accepted</th>
+      <th style="text-align: center">Workshop</th>
+      <th style="text-align: center">Tutorial</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ICLR</td>
-      <td>Oct 06, 21</td>
-      <td>Jan 24, 22</td>
-      <td><a href="https://iclr.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
-      <td><a href="https://iclr.cc/virtual/2022/events/workshop">[<em>list</em>]</a></td>
-      <td> </td>
+      <td style="text-align: center">ICLR</td>
+      <td style="text-align: center">Oct 06, 21</td>
+      <td style="text-align: center">Jan 24, 22</td>
+      <td style="text-align: center"><a href="https://iclr.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://iclr.cc/virtual/2022/events/workshop">[<em>list</em>]</a></td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td>NeurIPS</td>
-      <td>May 19, 22</td>
-      <td>Sep 14,22</td>
-      <td><a href="https://nips.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
-      <td><a href="https://nips.cc/virtual/2022/events/workshop">[<em>list</em>]</a> <br /> <a href="https://neurips2022.mlsafety.org/">机器学习安全</a> <br /> <a href="https://www.afciworkshop.org/">因果和隐私视角的算法公平性</a> <br /> <a href="https://tsrml2022.github.io/">可信负责的机器学习</a></td>
-      <td><a href="https://nips.cc/virtual/2022/events/tutorial">[<em>list</em>]</a><br /><a href="https://sites.google.com/view/neurips2022-llm-tutorial">终身机器学习</a> <br /> <a href="https://sites.google.com/view/neurips2022-frfm-turotial">基础模型的基本鲁棒性</a> <br /> <a href="https://sites.google.com/mila.quebec/fairnesstutorial/">算法公平性</a></td>
+      <td style="text-align: center">NeurIPS</td>
+      <td style="text-align: center">May 19, 22</td>
+      <td style="text-align: center">Sep 14,22</td>
+      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/workshop">[<em>list</em>]</a> <br /> <a href="https://neurips2022.mlsafety.org/">机器学习安全</a> <br /> <a href="https://www.afciworkshop.org/">因果和隐私视角的算法公平性</a> <br /> <a href="https://tsrml2022.github.io/">可信负责的机器学习</a></td>
+      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/tutorial">[<em>list</em>]</a><br /><a href="https://sites.google.com/view/neurips2022-llm-tutorial">终身机器学习</a> <br /> <a href="https://sites.google.com/view/neurips2022-frfm-turotial">基础模型的基本鲁棒性</a> <br /> <a href="https://sites.google.com/mila.quebec/fairnesstutorial/">算法公平性</a></td>
     </tr>
     <tr>
-      <td>ICML</td>
-      <td>Jan 27, 22</td>
-      <td>May 14, 22</td>
-      <td><a href="https://icml.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
-      <td><a href="https://icml.cc/virtual/2022/events/workshop">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/icml-ml4cyber/home">机器学习用于网络安全</a></td>
-      <td><a href="https://icml.cc/virtual/2022/events/Tutorial">[<em>list</em>]</a></td>
+      <td style="text-align: center">ICML</td>
+      <td style="text-align: center">Jan 27, 22</td>
+      <td style="text-align: center">May 14, 22</td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2022/events/workshop">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/icml-ml4cyber/home">机器学习用于网络安全</a></td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2022/events/Tutorial">[<em>list</em>]</a></td>
     </tr>
     <tr>
-      <td>CVPR</td>
-      <td>Nov 18, 21</td>
-      <td>March 2, 22</td>
-      <td><a href="https://openaccess.thecvf.com/CVPR2022?day=all">[<em>list</em>]</a></td>
-      <td><a href="https://cvpr2022.thecvf.com/workshop-schedule">[<em>list</em>]</a></td>
-      <td><a href="https://cvpr2022.thecvf.com/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr-2022-beyond-cnn">超越卷积神经网络</a> <br /> <a href="https://cvpr2022-tutorial-diffusion-models.github.io/">扩散生成模型：基础与应用</a> <br /> <a href="https://sites.google.com/view/evalmodel">评估教科书之外的模型：分布外和无标签</a><br /> <a href="https://sparse-learning.github.io/">神经网络中的稀疏学习和鲁棒统计分析</a></td>
+      <td style="text-align: center">CVPR</td>
+      <td style="text-align: center">Nov 18, 21</td>
+      <td style="text-align: center">March 2, 22</td>
+      <td style="text-align: center"><a href="https://openaccess.thecvf.com/CVPR2022?day=all">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://cvpr2022.thecvf.com/workshop-schedule">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://cvpr2022.thecvf.com/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr-2022-beyond-cnn">超越卷积神经网络</a> <br /> <a href="https://cvpr2022-tutorial-diffusion-models.github.io/">扩散生成模型：基础与应用</a> <br /> <a href="https://sites.google.com/view/evalmodel">评估教科书之外的模型：分布外和无标签</a><br /> <a href="https://sparse-learning.github.io/">神经网络中的稀疏学习和鲁棒统计分析</a></td>
     </tr>
     <tr>
-      <td>ACL</td>
-      <td>Nov 15, 21</td>
-      <td>Feb 23, 22</td>
-      <td><a href="https://www.2022.aclweb.org/papers">[<em>list</em>]</a></td>
-      <td><a href="https://www.2022.aclweb.org/workshops">[<em>list</em>]</a></td>
-      <td><a href="https://www.2022.aclweb.org/tutorials">[<em>list</em>]</a></td>
+      <td style="text-align: center">ACL</td>
+      <td style="text-align: center">Nov 15, 21</td>
+      <td style="text-align: center">Feb 23, 22</td>
+      <td style="text-align: center"><a href="https://www.2022.aclweb.org/papers">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://www.2022.aclweb.org/workshops">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://www.2022.aclweb.org/tutorials">[<em>list</em>]</a></td>
     </tr>
   </tbody>
 </table>]]></content><author><name></name></author><category term="论文追踪" /><category term="顶会" /><category term="论文" /><category term="研讨会" /><summary type="html"><![CDATA[2023]]></summary></entry><entry><title type="html">一个博士生接受怎样的训练是完整、全面的科研训练？[转]</title><link href="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/" rel="alternate" type="text/html" title="一个博士生接受怎样的训练是完整、全面的科研训练？[转]" /><published>2023-05-10T16:40:16+00:00</published><updated>2023-05-10T16:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4%E3%80%81%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83%EF%BC%9F%5B%E8%BD%AC%5D</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%8E%A5%E5%8F%97%E6%80%8E%E6%A0%B7%E7%9A%84%E8%AE%AD%E7%BB%83%E6%98%AF%E5%AE%8C%E6%95%B4-%E5%85%A8%E9%9D%A2%E7%9A%84%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83-%E8%BD%AC/"><![CDATA[<h1 id="一个博士生接受怎样的训练是完整全面的科研训练">一个博士生接受怎样的训练是完整、全面的科研训练？</h1>
