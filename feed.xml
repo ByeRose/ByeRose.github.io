@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T14:27:26+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T14:28:19+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">人工智能顶会 Paper | Workshop | Tutorial</title><link href="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&Workshop&Tutorial/" rel="alternate" type="text/html" title="人工智能顶会 Paper | Workshop | Tutorial" /><published>2023-05-11T20:40:16+00:00</published><updated>2023-05-11T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/"><![CDATA[<h1 id="2023">2023</h1>
 
 <table>
@@ -41,7 +41,7 @@
       <td style="text-align: center">CVPR</td>
       <td style="text-align: center">Nov 11, 22</td>
       <td style="text-align: center">Feb 27, 23</td>
-      <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers">[<em>lsit</em>]</a></td>
+      <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers">[<em>list</em>]</a></td>
       <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/workshop-list">[<em>list</em>]</a><br /> <a href="https://ai4cc.net/">AI内容创作</a> <br /> <a href="https://generative-vision.github.io/workshop-CVPR-23/">计算机视觉生成模型</a> <br /> <a href="https://robustart.github.io/">对抗机器学习：鲁棒的艺术</a> <br /> <a href="https://fadetrcv.github.io/2023/">公平数据高效和可信的计算机视觉</a></td>
       <td style="text-align: center"><a href="https://cvpr2023.thecvf.com/Conferences/2023/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr2023red">欺骗的逆向工程：基础与应用</a><br /><a href="https://dl-theory.github.io/">计算机视觉的深度学习理论</a><br /><a href="https://sites.google.com/view/clvision2023">持续学习</a><br /><a href="https://cvpr2023-tutorial-diffusion-models.github.io/">扩散模型：生成式学习大爆炸</a><br /><a href="https://all-things-vits.github.io/atv/">理解和解释视觉注意力</a></td>
     </tr>
@@ -50,7 +50,7 @@
       <td style="text-align: center">March 8, 23</td>
       <td style="text-align: center">July 13, 23</td>
       <td style="text-align: center"> </td>
-      <td style="text-align: center"><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-363300-4-31-33.php">[<em>lsit</em>]</a></td>
+      <td style="text-align: center"><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-363300-4-31-33.php">[<em>list</em>]</a></td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
