@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: A growing collection of your cool projects.
+description:
 years: [2023, 2022, 1967, 1935]
 nav: true
 nav_order: 1
