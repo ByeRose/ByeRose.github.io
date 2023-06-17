@@ -119,12 +119,19 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #ff0000;
+}
 table td,
 table th {
   color: var(--global-text-color);
+  border: 2px solid #000000;
 }
 table td {
   font-size: 1rem;
+  border: 2px solid #000000;
 }
 
 a,
