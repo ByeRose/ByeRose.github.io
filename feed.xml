@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-16T12:57:20+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T13:12:18+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">人工智能顶会 Paper | Workshop | Tutorial</title><link href="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&Workshop&Tutorial/" rel="alternate" type="text/html" title="人工智能顶会 Paper | Workshop | Tutorial" /><published>2023-05-11T20:40:16+00:00</published><updated>2023-05-11T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/"><![CDATA[<h1 id="2023">2023</h1>
 
 <table>
@@ -33,7 +33,7 @@
       <td>ICML</td>
       <td>Jan 26, 23</td>
       <td>Apr 24, 23</td>
-      <td> </td>
+      <td><a href="https://icml.cc/virtual/2023/papers.html">[<em>list</em>]</a></td>
       <td><a href="https://icml.cc/virtual/2023/events/workshop">[<em>list</em>]</a> <br /> <a href="https://www.ml-verification.com/">机器学习形式化验证</a></td>
       <td> </td>
     </tr>
