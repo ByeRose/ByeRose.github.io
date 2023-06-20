@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-20T03:05:48+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://byerose.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://byerose.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-20T03:06:51+00:00</updated><id>https://byerose.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">人工智能顶会 Paper | Workshop | Tutorial</title><link href="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&Workshop&Tutorial/" rel="alternate" type="text/html" title="人工智能顶会 Paper | Workshop | Tutorial" /><published>2023-05-11T20:40:16+00:00</published><updated>2023-05-11T20:40:16+00:00</updated><id>https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial</id><content type="html" xml:base="https://byerose.github.io/blog/2023/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A1%B6%E4%BC%9APaper&amp;Workshop&amp;Tutorial/"><![CDATA[<h1 id="2023">2023</h1>
 
 <table>
@@ -91,15 +91,15 @@
       <td style="text-align: center">May 19, 22</td>
       <td style="text-align: center">Sep 14,22</td>
       <td style="text-align: center"><a href="https://nips.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
-      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/workshop">[<em>list</em>]</a> <br /> <a href="https://neurips2022.mlsafety.org/">机器学习安全</a> <br /> <a href="https://www.afciworkshop.org/">因果和隐私视角的算法公平性</a> <br /> <a href="https://tsrml2022.github.io/">可信负责的机器学习</a></td>
-      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/tutorial">[<em>list</em>]</a><br /><a href="https://sites.google.com/view/neurips2022-llm-tutorial">终身机器学习</a> <br /> <a href="https://sites.google.com/view/neurips2022-frfm-turotial">基础模型的基本鲁棒性</a> <br /> <a href="https://sites.google.com/mila.quebec/fairnesstutorial/">算法公平性</a></td>
+      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/workshop">[<em>list</em>]</a></td>
+      <td style="text-align: center"><a href="https://nips.cc/virtual/2022/events/tutorial">[<em>list</em>]</a></td>
     </tr>
     <tr>
       <td style="text-align: center"><strong>ICML</strong></td>
       <td style="text-align: center">Jan 27, 22</td>
       <td style="text-align: center">May 14, 22</td>
       <td style="text-align: center"><a href="https://icml.cc/virtual/2022/papers.html">[<em>list</em>]</a></td>
-      <td style="text-align: center"><a href="https://icml.cc/virtual/2022/events/workshop">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/icml-ml4cyber/home">机器学习用于网络安全</a></td>
+      <td style="text-align: center"><a href="https://icml.cc/virtual/2022/events/workshop">[<em>list</em>]</a></td>
       <td style="text-align: center"><a href="https://icml.cc/virtual/2022/events/Tutorial">[<em>list</em>]</a></td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@
       <td style="text-align: center">March 2, 22</td>
       <td style="text-align: center"><a href="https://openaccess.thecvf.com/CVPR2022?day=all">[<em>list</em>]</a></td>
       <td style="text-align: center"><a href="https://cvpr2022.thecvf.com/workshop-schedule">[<em>list</em>]</a></td>
-      <td style="text-align: center"><a href="https://cvpr2022.thecvf.com/tutorial-list">[<em>list</em>]</a><br /> <a href="https://sites.google.com/view/cvpr-2022-beyond-cnn">超越卷积神经网络</a> <br /> <a href="https://cvpr2022-tutorial-diffusion-models.github.io/">扩散生成模型：基础与应用</a> <br /> <a href="https://sites.google.com/view/evalmodel">评估教科书之外的模型：分布外和无标签</a><br /> <a href="https://sparse-learning.github.io/">神经网络中的稀疏学习和鲁棒统计分析</a></td>
+      <td style="text-align: center"><a href="https://cvpr2022.thecvf.com/tutorial-list">[<em>list</em>]</a></td>
     </tr>
     <tr>
       <td style="text-align: center"><strong>ACL</strong></td>
